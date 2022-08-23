@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.courses-section {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.courses-section h2,
+.courses-section p {
+  margin-left: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.courses-section .types {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 4px;
+  transition: 0.3s;
+}
+
+.courses-section .types .chosen {
+  color: black;
+  transition: 0.3s;
+}
+
+.courses-section .types strong {
+  color: gray;
+  transition: 0.3s;
+}
+
+.courses-section .types strong:hover {
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.courses-section .content {
+  padding: 10px;
+  left: 0;
+  right: 0;
+  margin: 20px;
+  border: 1px solid rgb(187, 187, 187);
+}
+.courses-section .content p {
+  font-size: 18px;
+}
+
+.courses-section .button {
+  transition: 0.3s;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 12px 6px;
+}
+.courses-section .button:hover {
+  transition: 0.3s;
+  cursor: pointer;
   color: white;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.courses-section .courses .item {
+  transition: 0.3s;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
+.courses-section .courses .item:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 0;
+}
+
+.courses-section .courses img {
+  width: 100%;
+  object-fit: fill;
+  border: 1px solid gray;
+}
+
+.courses-section .courses h4 {
+  font-size: 17px;
+}
+
+.courses-section .courses p {
+  font-size: 15px;
+  color: gray;
+  margin: 2px;
+}
+
+.courses-section .courses .rating-bar {
+  display: flex;
+  align-items: center;
+}
+
+.courses-section .rating-bar .rate {
+  color: #c4b31b;
+  font-size: 15px;
+}
+.courses-section .rating-bar .raters {
+  color: gray;
+}
+
+.courses-section .rating-bar .full-star {
+  color: rgb(231, 231, 67);
+  font-size: 20px;
+}
+
+.courses-section .rating-bar .empty-star {
+  color: #eee;
+  font-size: 20px;
+}
+
+.courses-section .price {
+  display: flex;
+}
+
+.courses-section .price p {
+  color: black;
+  flex-grow: 1;
+}
+
+.courses-section .price p + p {
+  color: gray;
+  flex-grow: 1;
+  text-decoration: line-through;
+}
+
+.loader {
+  margin: 50px;
+  border: 12px solid #f3f3f3;
+  border-top: 12px solid rgb(167, 11, 167);
+  border-bottom: 12px solid rgb(167, 11, 167);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .courses-section .courses .item {
+    width: 100%;
   }
 }
