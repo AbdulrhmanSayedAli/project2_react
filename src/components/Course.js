@@ -12,6 +12,7 @@ export default function Course(props) {
       <RatingBar
         rate={props.course.rate}
         ratersCount={props.course.ratersCount}
+        courseId={props.course.id}
       ></RatingBar>
       <span className="price">
         <p>

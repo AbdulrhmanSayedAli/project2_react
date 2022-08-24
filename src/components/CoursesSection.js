@@ -8,7 +8,9 @@ export default function CoursesSection(props) {
   let courses = [];
 
   for (let i = 0; i < props.courses.length; i++) {
-    courses.push(<Course course={props.courses[i]}></Course>);
+    courses.push(
+      <Course key={props.courses[i].id} course={props.courses[i]}></Course>
+    );
   }
 
   return (
@@ -38,7 +40,7 @@ export default function CoursesSection(props) {
         <div className="courses container-fluid w-100">
           <div className="row">
             <div className="col-12 m-auto">
-              <div class="container-fluid">
+              <div className="container-fluid">
                 <OwlCarousel
                   className="owl-carousel owl-theme"
                   loop={false}
@@ -62,9 +64,7 @@ export default function CoursesSection(props) {
                     },
                   }}
                 >
-                  {courses.map((course) => {
-                    return course;
-                  })}
+                  {courses}
                 </OwlCarousel>
               </div>
             </div>

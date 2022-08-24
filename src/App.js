@@ -9,6 +9,7 @@ const description =
 
 const courses = [
   {
+    id: "1",
     title: "The Python and Django Learning Guide",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/2426532_a277_7.jpg",
@@ -18,6 +19,7 @@ const courses = [
     oldPrice: 99.99,
   },
   {
+    id: "2",
     title: "Python For Beginners [in Arabic]",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4230080_0693.jpg",
@@ -27,6 +29,7 @@ const courses = [
     oldPrice: 59.99,
   },
   {
+    id: "3",
     title: "Python For Beginners [in Arabic]",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4434202_3db6.jpg",
@@ -36,6 +39,7 @@ const courses = [
     oldPrice: 59.99,
   },
   {
+    id: "4",
     title: "Python For Beginners [in Arabic]",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4455448_6e62_4.jpg",
@@ -45,6 +49,7 @@ const courses = [
     oldPrice: 69.99,
   },
   {
+    id: "5",
     title: "The Complete Programming Fundamentals Course",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
@@ -54,6 +59,7 @@ const courses = [
     oldPrice: 149.99,
   },
   {
+    id: "6",
     title: "Python For Beginners [in Arabic]",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4434202_3db6.jpg",
@@ -63,6 +69,7 @@ const courses = [
     oldPrice: 59.99,
   },
   {
+    id: "7",
     title: "Python For Beginners [in Arabic]",
     author: "Hassan Fulaih",
     image: "https://img-b.udemycdn.com/course/240x135/4455448_6e62_4.jpg",
