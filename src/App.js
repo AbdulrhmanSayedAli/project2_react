@@ -1,5 +1,8 @@
 import "./styles/main.css";
 import "./styles/navigation_bar.css";
+import "./styles/header.css";
+import "./styles/categories.css";
+import "./styles/footer.css";
 
 import Main from "./pages/Main";
 import NavBar from "./components/NavBar/NavBar";

@@ -1,0 +1,11 @@
+.categories .row img {
+  transition: 0.3s;
+  width: 100%;
+}
+
+.categories .row img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s;
+}
