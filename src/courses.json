@@ -1,0 +1,158 @@
+{
+  "all":{
+    "Python":[
+      {
+        "id": 1,
+        "title": "Python For Beginners [in Arabic]",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      },
+      {
+        "id": 2.5,
+        "title": "The Python and Django Learning Guide",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/2426532_a277_7.jpg",
+        "rate":3,
+        "ratersCount":3430,
+        "newPrice":49.99,
+        "oldPrice":99.99
+      },
+      {
+        "id": 3,
+        "title": "Python For Beginners [in Arabic]",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4230080_0693.jpg",
+        "rate":2,
+        "ratersCount":1041,
+        "newPrice":39.99,
+        "oldPrice":59.99
+      },
+      {
+        "id": 4,
+        "title": "Python For Beginners [in Arabic]",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4434202_3db6.jpg",
+        "rate":3,
+        "ratersCount":1041,
+        "newPrice":39.99,
+        "oldPrice":59.99
+      },
+      {
+        "id": 5,
+        "title": "Python For Beginners [in Arabic]",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4455448_6e62_4.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      },
+      {
+        "id": 6,
+        "title": "The Complete Programming Fundamentals Course",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
+        "rate":4.2,
+        "ratersCount":4041,
+        "newPrice":99.99,
+        "oldPrice":149.99
+      },
+      {
+        "id": 7,
+        "title": "The Complete Programming Fundamentals Course",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
+        "rate":4,
+        "ratersCount":4041,
+        "newPrice":99.99,
+        "oldPrice":149.99
+      },
+      {
+        "id": 8,
+        "title": "The Complete Programming Fundamentals Course",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
+        "rate":4,
+        "ratersCount":4041,
+        "newPrice":99.99,
+        "oldPrice":149.99
+      }
+    ],
+    "Excel":[
+      {
+        "id": 9,
+        "title": "Advanced Microsoft Excel for Accountants (In Arabic)",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/3125248_9066_4.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      }
+    ],
+    "WebDevelopment":[
+      {
+        "id": 10,
+        "title": "Web Development Bootcamp in Arabic 2022 NEW!",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/480x270/4120068_6c2f_2.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      }
+    ],
+    "Javascript":[
+      {
+        "id": 11,
+        "title": "The Complete 2022 JavaScript Course with Projects [Arabic]",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/4163572_09e7_6.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      }
+    ],
+    "DataScience":[
+      {
+        "id": 12,
+        "title": "دبلومة بايثون لتعلم الآلة | Python Machine Learning Diploma",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/240x135/3832936_c482.jpg",
+        "rate":3,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      }
+    ],
+    "AWSCertification":[
+      {
+        "id": 13,
+        "title": "AWS Cloud Practitioner Certificate (CLF-C01) Arabic",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/480x270/4474502_d417_2.jpg",
+        "rate":4,
+        "ratersCount":2041,
+        "newPrice":119.99,
+        "oldPrice":169.99
+      }
+    ],
+    "Drawing":[
+      {
+        "id": 14,
+        "title": "تعليم أساسيات الرسم للأطفال",
+        "author": "Hassan Fulaih",
+        "image":"https://img-b.udemycdn.com/course/480x270/4160102_c8c5_4.jpg",
+        "rate":5,
+        "ratersCount":2041,
+        "newPrice":19.99,
+        "oldPrice":69.99
+      }
+    ]
+  }
+}

@@ -1,25 +1,46 @@
-import React from "react";
+import React, { useContext } from "react";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
 import Course from "../Card/Course";
+import { useSearchParams } from "react-router-dom";
+import { CoursesContext } from "../CoursesSection";
 
-const getCourses = (data) => {
-  let courses = [];
+export default function CoursesCarousel() {
+  // eslint-disable-next-line no-unused-vars
+  const [searchParams, _] = useSearchParams();
+
+  const coursesData = useContext(CoursesContext);
+  let data = coursesData.courses[coursesData.chosenTab.replace(" ", "")];
+
+  const courses = [];
 
   for (let i = 0; i < data.length; i++) {
-    courses.push(<Course key={data[i].id} course={data[i]}></Course>);
+    if (
+      !searchParams.get("search") ||
+      data[i].title
+        .toLowerCase()
+        .includes(searchParams.get("search").toLowerCase())
+    )
+      courses.push(
+        <div key={i}>
+          <Course
+            className={`tns-lazy-img`}
+            key={`${coursesData.chosenTab}-${data[i].id}`}
+            course={data[i]}
+            style={{ position: "relative" }}
+          ></Course>
+        </div>
+      );
   }
-  return courses;
-};
 
-export default function CoursesCarousel(props) {
   return (
     <div className="courses container-fluid w-100">
       <div className="row">
         <div className="col-12 m-auto">
           <div className="container-fluid">
             <OwlCarousel
+              key={courses}
               className="owl-carousel owl-theme"
               loop={false}
               nav={true}
@@ -42,7 +63,7 @@ export default function CoursesCarousel(props) {
                 },
               }}
             >
-              {getCourses(props.courses)}
+              {courses}
             </OwlCarousel>
           </div>
         </div>
