@@ -40,7 +40,7 @@ export default function CoursesCarousel() {
         <div className="col-12 m-auto">
           <div className="container-fluid">
             <OwlCarousel
-              key={courses}
+              key={coursesData.chosenTab}
               className="owl-carousel owl-theme"
               loop={false}
               nav={true}
