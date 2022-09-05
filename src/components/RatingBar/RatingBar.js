@@ -7,7 +7,10 @@ export default function RatingBar(props) {
   let StarNumber = 1;
   for (let i = 0; i < props.rate; i++) {
     stars.push(
-      <StarIcon key={`${props.id}-${StarNumber}`} className=" full-star" />
+      <StarIcon
+        key={`${props.courseId}-${StarNumber}`}
+        className=" full-star"
+      />
     );
     StarNumber++;
   }
@@ -24,15 +27,12 @@ export default function RatingBar(props) {
   }
   for (let i = 0; i < 5 - props.rate - (props.rate % 1 !== 0 ? 1 : 0); i++) {
     stars.push(
-      <StarIcon key={`${props.id}-${StarNumber}`} className=" empty-star" />
+      <StarIcon
+        key={`${props.courseId}-${StarNumber}`}
+        className=" empty-star"
+      />
     );
     StarNumber++;
   }
-  return (
-    <span className="rating-bar">
-      <p className="rate">{props.rate}</p>
-      {stars}
-      <p className="raters">({props.ratersCount})</p>
-    </span>
-  );
+  return <span className="rating-bar d-inline">{stars}</span>;
 }

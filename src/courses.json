@@ -3,156 +3,258 @@
     "Python":[
       {
         "id": 1,
-        "title": "Python For Beginners [in Arabic]",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      },
-      {
-        "id": 2.5,
         "title": "The Python and Django Learning Guide",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/2426532_a277_7.jpg",
-        "rate":3,
-        "ratersCount":3430,
-        "newPrice":49.99,
-        "oldPrice":99.99
-      },
-      {
-        "id": 3,
-        "title": "Python For Beginners [in Arabic]",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4230080_0693.jpg",
-        "rate":2,
-        "ratersCount":1041,
-        "newPrice":39.99,
-        "oldPrice":59.99
-      },
-      {
-        "id": 4,
-        "title": "Python For Beginners [in Arabic]",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4434202_3db6.jpg",
-        "rate":3,
-        "ratersCount":1041,
-        "newPrice":39.99,
-        "oldPrice":59.99
-      },
-      {
-        "id": 5,
-        "title": "Python For Beginners [in Arabic]",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4455448_6e62_4.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      },
-      {
-        "id": 6,
-        "title": "The Complete Programming Fundamentals Course",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
-        "rate":4.2,
-        "ratersCount":4041,
-        "newPrice":99.99,
-        "oldPrice":149.99
-      },
-      {
-        "id": 7,
-        "title": "The Complete Programming Fundamentals Course",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
-        "rate":4,
-        "ratersCount":4041,
-        "newPrice":99.99,
-        "oldPrice":149.99
-      },
-      {
-        "id": 8,
-        "title": "The Complete Programming Fundamentals Course",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4226056_5e40_3.jpg",
-        "rate":4,
-        "ratersCount":4041,
-        "newPrice":99.99,
-        "oldPrice":149.99
-      }
+        "subTitle": "تعلم لغة بايثون باللغة العربية من الصفر",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":46177,
+        "language":"Arabic",
+        "lastUpdate":"10/2021",
+        "newPrice":84.99,
+        "oldPrice":84.99,
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "whatYouLearn":[
+         "ستتمكن من فهم لغة بايثون"
+        ],
+     
+        "courseContent":{
+         "lecturesCount":75,
+         "totalTime":"8h 44min",
+         "sections":[
+           {
+             "id":1,
+             "title":"Introduction",
+             "totalTime":"24min",
+             "lectures":[
+               {
+                 "id":1,
+                 "title":"Setup the Environment",
+                 "time":"06:34"
+               },
+               {
+                 "id":2,
+                 "title":"Setup the Environment",
+                 "time":"03:57"
+               },
+               {
+                 "id":3,
+                 "title":"Terms of use",
+                 "time":"00:52"
+               },
+               {
+                 "id":4,
+                 "title":"About the Instructor",
+                 "time":"03:11"
+               },
+               {
+                 "id":5,
+                 "title":"Rating the Course",
+                 "time":"06:13"
+               },
+               {
+                 "id":6,
+                 "title":"How to get the Certificate",
+                 "time":"03:00"
+               }
+             ]
+           },
+           {
+             "id":2,
+             "title":"Python Basics",
+             "totalTime":"2hr 23min",
+             "lectures":[
+               {
+                 "id":7,
+                 "title":"Output (print)",
+                 "time":"05:50"
+               }, 
+               {
+                 "id":8,
+                 "title":"Variable",
+                 "time":"10:30"
+               },
+               {
+                 "id":9,
+                 "title":"Comments",
+                 "time":"02:29"
+               },
+               {
+                 "id":10,
+                 "title":"Type Casting",
+                 "time":"04:10"
+               },
+               {
+                 "id":11,
+                 "title":"Input",
+                 "time":"04:48"
+               },
+               {
+                 "id":12,
+                 "title":"App 1 Get My Age",
+                 "time":"04:20"
+               },
+               {
+                 "id":13,
+                 "title":"Logical Operation",
+                 "time":"03:43"
+               },
+               {
+                 "id":14,
+                 "title":"Mathematical Operation",
+                 "time":"05:03"
+               },
+               {
+                 "id":15,
+                 "title":"Order of Operation",
+                 "time":"02:53"
+               },
+               {
+                 "id":16,
+                 "title":"If Statements",
+                 "time":"07:36"
+               },
+               {
+                 "id":17,
+                 "title":"While, For Loops",
+                 "time":"05:57"
+               },
+               {
+                 "id":18,
+                 "title":"Nested Loops",
+                 "time":"07:49"
+               },
+               {
+                 "id":19,
+                 "title":"App 2 Degree",
+                 "time":"08:20"
+               },
+               {
+                 "id":20,
+                 "title":"Control Statements",
+                 "time":"03:36"
+               },
+               {
+                 "id":21,
+                 "title":"Exception Part:1",
+                 "time":"06:22"
+               },
+               {
+                 "id":22,
+                 "title":"Exception Part:2",
+                 "time":"05:50"
+               },
+               {
+                 "id":23,
+                 "title":"List, Tuple, Dictionary",
+                 "time":"08:26"
+               },
+               {
+                 "id":24,
+                 "title":"Using For Loop With List",
+                 "time":"08:44"
+               },
+               {
+                 "id":25,
+                 "title":"BIF 2: List, Tuple",
+                 "time":"05:59"
+               },
+               {
+                 "id":26,
+                 "title":"BIF 3: Dictionary",
+                 "time":"05:22"
+               },
+               {
+                 "id":27,
+                 "title":"BIF 4: String",
+                 "time":"05:58"
+               },
+               {
+                 "id":28,
+                 "title":"BIF 5: Set",
+                 "time":"06:07"
+               },
+               {
+                 "id":29,
+                 "title":"File",
+                 "time":"05:37"
+               }
+               
+             ]
+           }
+         ]
+        },
+        "requirements":[
+         "لا تحتاج لاي مؤهلات، هذا الكورس مخصص للاشخاص الذين لا يعرفون شي عن البرمجة"
+        ],
+        "description":"Become a Python Programmer and learn one of employer's most requested skills of 2022!\nThis is the most yet straightforward course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course, we will teach you Python 3.\nWith over 45 lectures and more than 5 hours of video, this comprehensive course leaves no stone unturned.\nThis course will teach you Python in a practical manner.\nWe will start by helping you get Python installed on your computer.\nWe cover a wide variety of topics,\nincluding:\nInstalling Python\nRunning Python Code\nStrings\nLists\nDictionaries\nTuples\nSets\nNumber Data Types\nPrint Formatting\nFunctions\nScope\nargs/kwargs\nBuilt-in Functions\nDebugging and Error Handling\nModules\nExternal Modules\nObject-Oriented Programming\nInheritance\nPolymorphism\nFile I/O\nAdvanced Methods\nand much more!\nThis course comes with a 30-day money-back guarantee! If you are not satisfied in any way, you'll get your money back. Plus you \nwill keep access to the Notebooks as a thank you for trying out the course!\n\nSo what are you waiting for? Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!", 
+        "whoFor":[
+         "يمكن لأي شخص ان يدخل الدورة ويتعلم لغة بايثون"
+        ],
+        "instructor":{
+         "authorID":11,
+         "name":"Hassan Fulaih",
+         "rating":4.6,
+         "reviews":16288,
+         "students":238910,
+         "courses":14,
+         "about":"I love writing code and I love teaching others\nI always loved coding, I love diving into complex problems and solving and I still think that it's really an amazing feeling to see an app or program you built from scratch\nYou might think that I studied programming and that I got a CS degree - but I didn't! I always liked coding and it was a great hobby but I actually went for 'Biomedical Engineering' when it was time to go to university.\nAnd I don't regret it! It was a fun time and I enjoyed all the things taught there. But soon after taking my first steps in typical Biomedical Engineering jobs, it was very clear to me that I had to go back to coding. And that's what I did.\nActually, I always worked as a freelancer on side jobs whilst I was at university. And I also started teaching others there. I like sharing my knowledge and I really believe that we all should do our best to allow everyone to learn new things and achieve his or her goals.\nNow, I've taught about 200,000 students worldwide.\nI published dozens of courses and I got all those tutorials you find on this page. I'm extremely happy to see that all this content is helping people learn the things they want :-)"
+        },
+        "feedBack":{
+         "rate":3.5,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       }
     ],
     "Excel":[
-      {
-        "id": 9,
-        "title": "Advanced Microsoft Excel for Accountants (In Arabic)",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/3125248_9066_4.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      }
+     
     ],
     "WebDevelopment":[
-      {
-        "id": 10,
-        "title": "Web Development Bootcamp in Arabic 2022 NEW!",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/480x270/4120068_6c2f_2.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      }
+    
     ],
     "Javascript":[
-      {
-        "id": 11,
-        "title": "The Complete 2022 JavaScript Course with Projects [Arabic]",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/4163572_09e7_6.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      }
+    
     ],
     "DataScience":[
-      {
-        "id": 12,
-        "title": "دبلومة بايثون لتعلم الآلة | Python Machine Learning Diploma",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/240x135/3832936_c482.jpg",
-        "rate":3,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      }
+     
     ],
     "AWSCertification":[
-      {
-        "id": 13,
-        "title": "AWS Cloud Practitioner Certificate (CLF-C01) Arabic",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/480x270/4474502_d417_2.jpg",
-        "rate":4,
-        "ratersCount":2041,
-        "newPrice":119.99,
-        "oldPrice":169.99
-      }
+   
     ],
     "Drawing":[
-      {
-        "id": 14,
-        "title": "تعليم أساسيات الرسم للأطفال",
-        "author": "Hassan Fulaih",
-        "image":"https://img-b.udemycdn.com/course/480x270/4160102_c8c5_4.jpg",
-        "rate":5,
-        "ratersCount":2041,
-        "newPrice":19.99,
-        "oldPrice":69.99
-      }
+     
     ]
   }
 }

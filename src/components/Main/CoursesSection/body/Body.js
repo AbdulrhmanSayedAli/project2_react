@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
+import { CoursesContext } from "../../../../App";
 import LoadingBar from "../../../LoadingBar/LoadingBar";
-import { CoursesContext } from "../CoursesSection";
 import CoursesCarousel from "./CoursesCarousel";
 
 export default function Body(props) {

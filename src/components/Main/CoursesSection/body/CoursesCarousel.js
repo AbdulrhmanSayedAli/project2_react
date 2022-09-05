@@ -4,8 +4,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
 import Course from "../Card/Course";
 import { useSearchParams } from "react-router-dom";
-import { CoursesContext } from "../CoursesSection";
-
+import { CoursesContext } from "../../../../App";
 export default function CoursesCarousel() {
   // eslint-disable-next-line no-unused-vars
   const [searchParams, _] = useSearchParams();
@@ -25,7 +24,6 @@ export default function CoursesCarousel() {
       courses.push(
         <div key={i}>
           <Course
-            className={`tns-lazy-img`}
             key={`${coursesData.chosenTab}-${data[i].id}`}
             course={data[i]}
             style={{ position: "relative" }}
@@ -40,7 +38,7 @@ export default function CoursesCarousel() {
         <div className="col-12 m-auto">
           <div className="container-fluid">
             <OwlCarousel
-              key={coursesData.chosenTab}
+              key={`${coursesData.chosenTab}-${searchParams.get("search")}`}
               className="owl-carousel owl-theme"
               loop={false}
               nav={true}

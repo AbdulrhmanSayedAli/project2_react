@@ -62,12 +62,36 @@
 .courses-section .courses .item {
   transition: 0.3s;
   padding: 10px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
 }
 
 .courses-section .courses .item:hover {
   transition: 0.3s;
   cursor: pointer;
   padding: 0;
+}
+
+.courses-section .courses .item .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  left: 105%;
+  position: fixed;
+  z-index: 3;
+}
+
+.courses-section .courses .item:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 .courses-section .courses img {
@@ -86,27 +110,12 @@
   margin: 2px;
 }
 
-.courses-section .courses .rating-bar {
-  display: flex;
-  align-items: center;
-}
-
-.courses-section .rating-bar .rate {
+.courses-section .courses p.rate {
   color: #c4b31b;
   font-size: 15px;
 }
-.courses-section .rating-bar .raters {
+.courses-section .courses p.raters {
   color: gray;
-}
-
-.courses-section .rating-bar .full-star {
-  color: rgb(231, 231, 67);
-  font-size: 20px;
-}
-
-.courses-section .rating-bar .empty-star {
-  color: #eee;
-  font-size: 20px;
 }
 
 .courses-section .price {

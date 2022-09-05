@@ -1,0 +1,68 @@
+.course-page .header .path .item {
+  color: rgb(223, 174, 243);
+  font-size: 13px;
+}
+
+.course-page .header .path .item:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.course-page .header h1 {
+  font-size: 30px;
+}
+
+.course-page .header h2 {
+  font-size: 20px;
+}
+
+.course-page .header .rate {
+  font-size: 14px;
+  margin-top: 4px;
+  align-self: center;
+  color: rgb(231, 231, 67);
+}
+.course-page .header .raters {
+  font-size: 14px;
+  margin-top: 4px;
+  align-self: center;
+  text-decoration: underline;
+  color: rgb(223, 174, 243);
+}
+
+.course-page .header .raters:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.course-page .header .students {
+  font-size: 14px;
+  margin-top: 4px;
+  align-self: center;
+  color: white;
+}
+
+.course-page .header .author {
+  font-size: 14px;
+  margin-top: 4px;
+  align-self: center;
+  color: white;
+}
+
+.course-page .header .author .name {
+  font-size: 14px;
+  margin-top: 4px;
+  align-self: center;
+  color: rgb(223, 174, 243);
+  text-decoration: underline;
+}
+
+.course-page .header .author .name:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.course-page .header .icon {
+  font-size: 15px;
+  margin-bottom: 2px;
+}

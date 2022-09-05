@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import { CoursesContext } from "../CoursesSection";
-
+import { CoursesContext } from "../../../../App";
 export default function Tab(props) {
   const coursesData = useContext(CoursesContext);
 
