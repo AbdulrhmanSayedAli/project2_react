@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import CoursePageHeader from "../components/CoursePage/Header/CoursePageHeader";
 import { CoursesContext } from "../App";
 import LoadingBar from "../components/LoadingBar/LoadingBar";
+import Body from "../components/CoursePage/Body/Body";
 
 const getCourse = (id, data) => {
   for (let i = 0; i < data.courses[data.chosenTab].length; i++)
@@ -21,6 +22,7 @@ export default function CoursePage() {
       {data.loaded ? (
         <SimpleCourseContext.Provider value={{ ...getCourse(id, data) }}>
           <CoursePageHeader />
+          <Body />
         </SimpleCourseContext.Provider>
       ) : (
         <LoadingBar />

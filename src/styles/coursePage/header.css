@@ -80,6 +80,13 @@
   margin-left: 80px;
 }
 
+@media screen and (max-width: 990px) {
+  .header-tabs .tabs {
+    width: 90%;
+    margin: auto !important;
+  }
+}
+
 .header-tabs .tabs span {
   width: 100%;
   color: grey;

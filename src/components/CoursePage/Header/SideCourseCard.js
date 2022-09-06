@@ -26,7 +26,7 @@ const includesItem = (icon, text) => {
 export default function SideCourseCard(props) {
   const data = useContext(SimpleCourseContext);
   return (
-    <div className="side">
+    <div className="side d-none d-lg-block">
       <PreviewCourse />
       <h3 className="mt-2">
         <strong>{data.newPrice}$</strong>
@@ -63,7 +63,7 @@ export default function SideCourseCard(props) {
       <p>
         Get your team access to 17,000+ top Udemy courses anytime, anywhere.
       </p>
-      <button className="try-udemy">Try udemy Business</button>
+      <button className="try-udemy mb-3">Try udemy Business</button>
     </div>
   );
 }

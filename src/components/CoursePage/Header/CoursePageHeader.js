@@ -11,7 +11,7 @@ export default function CoursePageHeader() {
   const course = useContext(SimpleCourseContext);
   return (
     <>
-      <header className="header bg-dark text-light p-2 p-md-3 p-lg-4 d-none d-lg-block ">
+      <header className="header bg-dark text-light p-2 p-md-3 p-lg-4 d-block ">
         <SideCourseCard />
         <PathToCourse />
 

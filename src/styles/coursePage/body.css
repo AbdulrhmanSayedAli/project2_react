@@ -1,0 +1,86 @@
+.course-page .body {
+  width: 54%;
+}
+@media screen and (max-width: 990px) {
+  .course-page .body {
+    width: 80%;
+    margin: auto !important;
+  }
+}
+
+.course-page .body-card {
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  padding: 20px;
+}
+
+.course-page .what-you-learn h3 {
+  font-size: 24px;
+}
+
+.course-page .what-you-learn .what-you-learn-item {
+  font-size: 15px;
+}
+.course-page .what-you-learn .what-you-learn-item span {
+  margin: 4px;
+  margin-left: 12px;
+}
+
+.course-page .top-companies h4 {
+  font-size: 15px;
+}
+
+.course-page .top-companies p {
+  color: grey;
+  font-size: 15px;
+}
+
+.course-page .top-companies p a {
+  color: rgb(175, 76, 214);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.companies {
+  width: 100%;
+  overflow: hidden;
+}
+
+.course-page .top-companies .companies img {
+  object-fit: cover;
+}
+
+.course-page .accordion {
+  background-color: rgba(128, 128, 128, 0.158);
+  border: 1px solid rgba(128, 128, 128, 0.233);
+  color: black;
+}
+
+.course-page .accordion .content {
+  background-color: white;
+}
+
+.course-page .course-content {
+  border: none;
+}
+
+.course-page .course-content .expand {
+  color: rgb(175, 76, 214);
+}
+
+.course-page .course-content .expand:hover {
+  cursor: pointer;
+  color: rgb(150, 43, 192);
+}
+
+.course-page .course-content .lecture div {
+  color: grey;
+}
+
+.course-page .course-content .lecture a {
+  color: rgb(131, 54, 219);
+}
+
+.course-page .course-content .lecture a:hover {
+  cursor: pointer;
+  color: rgb(150, 43, 192);
+}

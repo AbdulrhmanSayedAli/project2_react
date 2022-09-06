@@ -1,10 +1,16 @@
 .side {
   width: 340px;
   position: absolute;
-  right: 100px;
-  border: 0.5px solid rgba(128, 128, 128, 0.603);
+  right: 9%;
+  border: 0.5px solid rgba(128, 128, 128, 0.459);
   box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.096);
   background-color: white;
+}
+
+@media screen and (max-width: 1060px) {
+  .side {
+    right: 2%;
+  }
 }
 
 .side .preview {
@@ -118,14 +124,14 @@
 
 .side .includes-item {
   color: black;
-  margin-left: 5%;
+  margin-left: 20px;
   font-size: 15px;
 }
 
 .side .includes-item span {
   color: grey;
-  margin-left: 12px;
   margin: 4px;
+  margin-left: 12px;
 }
 
 .side .under-includes {
