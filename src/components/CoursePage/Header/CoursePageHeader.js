@@ -6,11 +6,17 @@ import InfoIcon from "@mui/icons-material/Info";
 import LanguageIcon from "@mui/icons-material/Language";
 import SideCourseCard from "./SideCourseCard";
 import HeaderTabs from "./HeaderTabs";
+import CoursePageAppBar from "./CoursePageAppBar";
+import { NavBarVisibilityContext } from "../../../App";
 
 export default function CoursePageHeader() {
   const course = useContext(SimpleCourseContext);
+  const NavVisibility = useContext(NavBarVisibilityContext);
   return (
     <>
+      <section>
+        {NavVisibility.isVisible ? <span></span> : <CoursePageAppBar />}
+      </section>
       <header className="header bg-dark text-light p-2 p-md-3 p-lg-4 d-block ">
         <SideCourseCard />
         <PathToCourse />
@@ -35,7 +41,7 @@ export default function CoursePageHeader() {
           </div>
         </div>
       </header>
-      <HeaderTabs />
+      {NavVisibility.isVisible ? <HeaderTabs /> : <span></span>}
     </>
   );
 }

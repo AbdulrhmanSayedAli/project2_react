@@ -10,19 +10,22 @@
 
 .course-page .header h1 {
   font-size: 30px;
+  color: white;
 }
 
 .course-page .header h2 {
   font-size: 20px;
 }
 
-.course-page .header .rate {
+.course-page .header .rate,
+.course-page .app-bar .rate {
   font-size: 14px;
   margin-top: 4px;
   align-self: center;
   color: rgb(231, 231, 67);
 }
-.course-page .header .raters {
+.course-page .header .raters,
+.course-page .app-bar .raters {
   font-size: 14px;
   margin-top: 4px;
   align-self: center;
@@ -30,12 +33,14 @@
   color: rgb(223, 174, 243);
 }
 
-.course-page .header .raters:hover {
+.course-page .header .raters:hover,
+.course-page .app-bar .raters:hover {
   color: white;
   cursor: pointer;
 }
 
-.course-page .header .students {
+.course-page .header .students,
+.course-page .app-bar .students {
   font-size: 14px;
   margin-top: 4px;
   align-self: center;
@@ -99,4 +104,20 @@
   border-bottom: 1px solid black;
   color: black;
   cursor: pointer;
+}
+
+.course-page .app-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+
+.course-page .app-bar h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.course-page .app-bar .header-tabs {
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.226);
 }

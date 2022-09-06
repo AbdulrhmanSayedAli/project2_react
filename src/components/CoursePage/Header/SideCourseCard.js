@@ -6,6 +6,7 @@ import SystemUpdateAltIcon from "@mui/icons-material/SystemUpdateAlt";
 import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import { NavBarVisibilityContext } from "../../../App";
 
 const includesItem = (icon, text) => {
   return (
@@ -25,9 +26,16 @@ const includesItem = (icon, text) => {
 
 export default function SideCourseCard(props) {
   const data = useContext(SimpleCourseContext);
+  const navVisibility = useContext(NavBarVisibilityContext);
   return (
-    <div className="side d-none d-lg-block">
-      <PreviewCourse />
+    <div
+      className={
+        navVisibility.isVisible
+          ? "side d-none d-lg-block"
+          : "side side-sticky d-none d-lg-block"
+      }
+    >
+      {navVisibility.isVisible ? <PreviewCourse /> : <span></span>}
       <h3 className="mt-2">
         <strong>{data.newPrice}$</strong>
       </h3>

@@ -16,11 +16,14 @@ import CoursePage from "./pages/CoursePage";
 import React, { createContext, useEffect, useState } from "react";
 
 export const CoursesContext = createContext();
+export const NavBarVisibilityContext = createContext();
 
 function App() {
   const [state, setState] = useState({
     loaded: false,
   });
+
+  const [isNavVisible, setNavVisible] = useState(true);
 
   useEffect(() => {
     fetch(`http://localhost:3000/all`)
@@ -34,24 +37,33 @@ function App() {
 
   return (
     <div className="App">
-      <CoursesContext.Provider
+      <NavBarVisibilityContext.Provider
         value={{
-          ...state,
-          changeCoursesTab: (newTab) => {
-            setState({
-              ...state,
-              chosenTab: newTab,
-            });
+          isVisible: isNavVisible,
+          setVisibility: (isVisible) => {
+            setNavVisible(isVisible);
           },
         }}
       >
-        <NavBar />
+        <CoursesContext.Provider
+          value={{
+            ...state,
+            changeCoursesTab: (newTab) => {
+              setState({
+                ...state,
+                chosenTab: newTab,
+              });
+            },
+          }}
+        >
+          {isNavVisible ? <NavBar /> : <></>}
 
-        <Routes>
-          <Route exact path="/" element={<Main />}></Route>
-          <Route exact path="/course/:id" element={<CoursePage />}></Route>
-        </Routes>
-      </CoursesContext.Provider>
+          <Routes>
+            <Route exact path="/" element={<Main />}></Route>
+            <Route exact path="/course/:id" element={<CoursePage />}></Route>
+          </Routes>
+        </CoursesContext.Provider>
+      </NavBarVisibilityContext.Provider>
     </div>
   );
 }

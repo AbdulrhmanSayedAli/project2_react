@@ -8,6 +8,13 @@
   }
 }
 
+@media screen and (max-width: 490px) {
+  .course-page .body {
+    width: 98%;
+    margin: auto !important;
+  }
+}
+
 .course-page .body-card {
   border: 1px solid rgba(128, 128, 128, 0.521);
   padding: 20px;
