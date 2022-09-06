@@ -24,24 +24,17 @@ export default function CoursePage() {
   const data = useContext(CoursesContext);
   const NavVisibility = useContext(NavBarVisibilityContext);
 
+  const observer = new IntersectionObserver((entries, observer) => {
+    const entry = entries[0];
+    if (!entry.isIntersecting) {
+      changeNavVisibilty(NavVisibility, false);
+    } else changeNavVisibilty(NavVisibility, true);
+  });
+
   useEffect(() => {
-    const observer = new IntersectionObserver((entries, observer) => {
-      const entry = entries[0];
-      if (!entry.isIntersecting) {
-        changeNavVisibilty(NavVisibility, false);
-      } else changeNavVisibilty(NavVisibility, true);
-    });
     if (data.loaded) observer.observe(document.querySelector(".header h1"));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
-
-  //unmount
-  useEffect(() => {
-    return () => {
-      changeNavVisibilty(NavVisibility, true);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <section className="course-page">
