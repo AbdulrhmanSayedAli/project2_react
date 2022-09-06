@@ -13,5 +13,5 @@ export default function PathToCourse() {
     if (i !== path.length - 1)
       pathView.push(<span className="arrow">&gt;</span>);
   }
-  return <div className="path ms-4">{pathView}</div>;
+  return <div className="path ms-5">{pathView}</div>;
 }

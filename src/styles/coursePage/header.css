@@ -66,3 +66,30 @@
   font-size: 15px;
   margin-bottom: 2px;
 }
+
+.header-tabs {
+  background-color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.header-tabs .tabs {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+
+.header-tabs .tabs span {
+  width: 100%;
+  color: grey;
+  padding: 10px 0px;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.header-tabs .tabs span:hover {
+  border-bottom: 1px solid black;
+  color: black;
+  cursor: pointer;
+}

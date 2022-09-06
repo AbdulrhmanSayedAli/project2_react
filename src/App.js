@@ -6,6 +6,7 @@ import "./styles/mainPage/header.css";
 import "./styles/mainPage/categories.css";
 import "./styles/mainPage/footer.css";
 import "./styles/coursePage/header.css";
+import "./styles/coursePage/side.css";
 
 import Main from "./pages/Main";
 import NavBar from "./components/NavBar/NavBar";
