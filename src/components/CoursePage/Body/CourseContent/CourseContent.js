@@ -22,6 +22,13 @@ const getDefaultExpandedList = (courseSections) => {
   });
 };
 
+const isAllExpanded = (expandedList) => {
+  for (let i = 0; i < expandedList.length; i++) {
+    if (!expandedList[i].expanded) return false;
+  }
+  return true;
+};
+
 export const myAccordionContext = createContext();
 
 export default function CourseContent() {
@@ -32,10 +39,10 @@ export default function CourseContent() {
     getDefaultExpandedList(courseContent.sections)
   );
 
-  const ExpandAll = () => {
+  const updateAllExpandedList = (value) => {
     const newList = [...expandedList];
     for (let i = 0; i < newList.length; i++) {
-      newList[i].expanded = true;
+      newList[i].expanded = value;
     }
     setExpandedList(newList);
   };
@@ -51,8 +58,15 @@ export default function CourseContent() {
           {courseContent.lecturesCount} lectures • {courseContent.totalTime}{" "}
           total length
         </div>
-        <div className="expand" onClick={ExpandAll}>
-          <strong>Expand all sections</strong>
+        <div
+          className="expand"
+          onClick={() => {
+            updateAllExpandedList(isAllExpanded(expandedList) ? false : true);
+          }}
+        >
+          <strong>
+            {isAllExpanded(expandedList) ? "Collapse" : "Expand"} all sections
+          </strong>
         </div>
       </div>
       <myAccordionContext.Provider
