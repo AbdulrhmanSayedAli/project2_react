@@ -19,7 +19,6 @@
         "whatYouLearn":[
          "ستتمكن من فهم لغة بايثون"
         ],
-     
         "courseContent":{
          "lecturesCount":75,
          "totalTime":"8h 44min",
@@ -189,7 +188,7 @@
         "requirements":[
          "لا تحتاج لاي مؤهلات، هذا الكورس مخصص للاشخاص الذين لا يعرفون شي عن البرمجة"
         ],
-        "description":"Become a Python Programmer and learn one of employer's most requested skills of 2022!\nThis is the most yet straightforward course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course, we will teach you Python 3.\nWith over 45 lectures and more than 5 hours of video, this comprehensive course leaves no stone unturned.\nThis course will teach you Python in a practical manner.\nWe will start by helping you get Python installed on your computer.\nWe cover a wide variety of topics,\nincluding:\nInstalling Python\nRunning Python Code\nStrings\nLists\nDictionaries\nTuples\nSets\nNumber Data Types\nPrint Formatting\nFunctions\nScope\nargs/kwargs\nBuilt-in Functions\nDebugging and Error Handling\nModules\nExternal Modules\nObject-Oriented Programming\nInheritance\nPolymorphism\nFile I/O\nAdvanced Methods\nand much more!\nThis course comes with a 30-day money-back guarantee! If you are not satisfied in any way, you'll get your money back. Plus you \nwill keep access to the Notebooks as a thank you for trying out the course!\n\nSo what are you waiting for? Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!", 
+        "description":"Become a <b>Python Programmer</b> and learn one of employer's most requested skills of 2022!\nThis is the most yet straightforward course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course, we will teach you Python 3.\nWith over 45 lectures and more than 5 hours of video, this comprehensive course leaves no stone unturned.\nThis course will teach you Python in a practical manner.\nWe will start by helping you get Python installed on your computer.\nWe cover a wide variety of topics,\nincluding:\nInstalling Python\nRunning Python Code\nStrings\nLists\nDictionaries\nTuples\nSets\nNumber Data Types\nPrint Formatting\nFunctions\nScope\nargs/kwargs\nBuilt-in Functions\nDebugging and Error Handling\nModules\nExternal Modules\nObject-Oriented Programming\nInheritance\nPolymorphism\nFile I/O\nAdvanced Methods\nand much more!\nThis course comes with a 30-day money-back guarantee! If you are not satisfied in any way, you'll get your money back. Plus you \nwill keep access to the Notebooks as a thank you for trying out the course!\n\nSo what are you waiting for? Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!", 
         "whoFor":[
          "يمكن لأي شخص ان يدخل الدورة ويتعلم لغة بايثون"
         ],

@@ -91,3 +91,29 @@
   cursor: pointer;
   color: rgb(150, 43, 192);
 }
+
+.course-page .requirements {
+  border: none;
+}
+
+.course-page .description {
+  border: none;
+}
+
+.course-page .description .text {
+  font-size: 15px;
+}
+
+.course-page .description button {
+  color: rgb(130, 40, 165);
+  background-color: transparent;
+  border: none;
+}
+
+.course-page .description button:hover {
+  color: rgb(150, 43, 192);
+}
+
+.course-page .description .who-for {
+  border: none;
+}
