@@ -7,6 +7,7 @@ import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { NavBarVisibilityContext } from "../../../App";
+import ArticleIcon from "@mui/icons-material/Article";
 
 const includesItem = (icon, text) => {
   return (
@@ -25,7 +26,7 @@ const includesItem = (icon, text) => {
 };
 
 export default function SideCourseCard(props) {
-  const data = useContext(SimpleCourseContext);
+  const course = useContext(SimpleCourseContext);
   const navVisibility = useContext(NavBarVisibilityContext);
   return (
     <div
@@ -37,7 +38,7 @@ export default function SideCourseCard(props) {
     >
       {navVisibility.isVisible ? <PreviewCourse /> : <span></span>}
       <h3 className="mt-2">
-        <strong>{data.newPrice}$</strong>
+        <strong>{course.newPrice}$</strong>
       </h3>
       <button className="add-to-cart">Add to cart</button>
       <button className="buy-now">Buy now</button>
@@ -45,13 +46,47 @@ export default function SideCourseCard(props) {
       <h4>
         <strong>This course includes:</strong>
       </h4>
-
-      {includesItem(<TvIcon />, "9 hours on-demand video")}
-      {includesItem(<SystemUpdateAltIcon />, "1 downloadable resource")}
-      {includesItem(<AllInclusiveIcon />, "Full lifetime access")}
-      {includesItem(<MobileFriendlyIcon />, "Access on mobile and TV")}
-      {includesItem(<EmojiEventsIcon />, "Certificate of completion")}
-
+      {includesItem(
+        <TvIcon />,
+        `${course.courseIncludes.hours} hours on-demand video`
+      )}
+      {course.courseIncludes.downloadableResources === 0 ? (
+        <></>
+      ) : (
+        includesItem(
+          <SystemUpdateAltIcon />,
+          `${
+            course.courseIncludes.downloadableResources
+          } downloadable resource${
+            course.courseIncludes.downloadableResources === 1 ? "" : "s"
+          }`
+        )
+      )}{" "}
+      {course.courseIncludes.articles === 0 ? (
+        <></>
+      ) : (
+        includesItem(
+          <ArticleIcon />,
+          `${course.courseIncludes.articles} article${
+            course.courseIncludes.articles === 1 ? "" : "s"
+          }`
+        )
+      )}
+      {course.courseIncludes.lifetimeAccess ? (
+        includesItem(<AllInclusiveIcon />, "Full lifetime access")
+      ) : (
+        <></>
+      )}
+      {course.courseIncludes.mobileAccess ? (
+        includesItem(<MobileFriendlyIcon />, "Access on mobile and TV")
+      ) : (
+        <></>
+      )}
+      {course.courseIncludes.certificate ? (
+        includesItem(<EmojiEventsIcon />, "Certificate of completion")
+      ) : (
+        <></>
+      )}
       <div className="under-includes">
         <div>
           <strong>Share</strong>
@@ -63,7 +98,6 @@ export default function SideCourseCard(props) {
           <strong>Apply coupon</strong>
         </div>
       </div>
-
       <div className="divider"></div>
       <h4>
         <strong>Training 5 or more people?</strong>

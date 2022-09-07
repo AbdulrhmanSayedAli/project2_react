@@ -16,6 +16,14 @@
          "Programming Languages",
          "Python"
         ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":1,
+          "hours":9,
+          "articles":0
+        },
         "whatYouLearn":[
          "ستتمكن من فهم لغة بايثون"
         ],
@@ -182,6 +190,258 @@
                }
                
              ]
+           },
+           {
+            "id":3,
+            "title":"Function",
+            "totalTime":"44min",
+            "lectures":[
+              {
+                "id":30,
+                "title":"Function Part:1",
+                "time":"10:10"
+              },
+              {
+                "id":31,
+                "title":"Function Part:2",
+                "time":"08:18"
+              },
+              {
+                "id":32,
+                "title":"Function Types",
+                "time":"03:58"
+              },
+              {
+                "id":33,
+                "title":"Passing List Through Function",
+                "time":"04:17"
+              },
+              {
+                "id":34,
+                "title":"Recursion",
+                "time":"05:29"
+              },
+              {
+                "id":35,
+                "title":"Lambda Expression)",
+                "time":"05:15"
+              },
+              {
+                "id":36,
+                "title":"Higher Order Function (HOF)",
+                "time":"06:17"
+              }
+            ]
+           },{
+            "id":4,
+            "title":"Object Oriented Programming",
+            "totalTime":"1hr 40min",
+            "lectures":[
+              {
+                "id":37,
+                "title":"Introduction",
+                "time":"04:46"
+              },
+              {
+                "id":38,
+                "title":"Class, Object",
+                "time":"06:53"
+              },
+              {
+                "id":39,
+                "title":"Self",
+                "time":"09:16"
+              },
+              {
+                "id":40,
+                "title":"Constructor",
+                "time":"06:31"
+              },
+              {
+                "id":41,
+                "title":"Instance, Class Variable & Class Method",
+                "time":"08:50"
+              },
+              {
+                "id":42,
+                "title":"Every Thing is Object",
+                "time":"03:33"
+              },
+              {
+                "id":43,
+                "title":"Inheritance",
+                "time":"07:12"
+              },
+              {
+                "id":44,
+                "title":"Multi Inheritance, Override",
+                "time":"07:08"
+              },
+              {
+                "id":45,
+                "title":"Constructor With Inheritance",
+                "time":"08:04"
+              },
+              {
+                "id":46,
+                "title":"Import, Random",
+                "time":"05:18"
+              },
+              {
+                "id":47,
+                "title":"Nested Classes",
+                "time":"05:26"
+              },
+              {
+                "id":48,
+                "title":"Polymorphism",
+                "time":"12:00"
+              },
+              {
+                "id":49,
+                "title":"Exception Part:3",
+                "time":"07:26"
+              },
+              {
+                "id":50,
+                "title":"Enum Class",
+                "time":"07:42"
+              }
+            ]
+           },
+           {
+            "id":5,
+            "title":"HTML & HTML5",
+            "totalTime":"1hr 33min",
+            "lectures":[
+              {
+                "id":51,
+                "title":"0 ضبط بيئة العمل",
+                "time":"07:08"
+              },
+              {
+                "id":52,
+                "title":"1 Heading",
+                "time":"08:10"
+              },
+              {
+                "id":53,
+                "title":"2 Paragraph",
+                "time":"10:39"
+              },
+              {
+                "id":54,
+                "title":"3 Comments",
+                "time":"02:21"
+              },
+              {
+                "id":55,
+                "title":"4 Images",
+                "time":"05:46"
+              },
+              {
+                "id":56,
+                "title":"5 Link, Iframe",
+                "time":"07:44"
+              },
+              {
+                "id":57,
+                "title":"6 Inline, Block",
+                "time":"03:21"
+              },
+              {
+                "id":58,
+                "title":"7 Tables",
+                "time":"07:00"
+              },
+              {
+                "id":59,
+                "title":"8 Lists",
+                "time":"08:20"
+              },
+              {
+                "id":60,
+                "title":"9 Form",
+                "time":"08:22"
+              },
+              {
+                "id":61,
+                "title":"10 Form Part 2",
+                "time":"09:37"
+              },
+              {
+                "id":62,
+                "title":"11 Form Attributes",
+                "time":"06:10"
+              },
+              {
+                "id":62,
+                "title":"12 Select, Datalist Options",
+                "time":"04:41"
+              },
+              {
+                "id":63,
+                "title":"13 Videos, Audio",
+                "time":"04:09"
+              }
+            ]
+           },
+           {
+            "id":6,
+            "title":"Django Crash Course",
+            "totalTime":"2hr 1min",
+            "lectures":[
+              {
+                "id":64,
+                "title":"1 Introduction",
+                "time":"07:02"
+              },
+              {
+                "id":65,
+                "title":"2 cmd",
+                "time":"09:02"
+              },
+              {
+                "id":66,
+                "title":"3 Creating the first app",
+                "time":"17:13"
+              },
+              {
+                "id":67,
+                "title":"4 Views",
+                "time":"15:25"
+              },
+              {
+                "id":68,
+                "title":"5 Templatess",
+                "time":"10:00"
+              },
+              {
+                "id":69,
+                "title":"6 Templates Part2",
+                "time":"13:20"
+              },
+              {
+                "id":70,
+                "title":"7 Test",
+                "time":"05:35"
+              },
+              {
+                "id":71,
+                "title":"8 Models",
+                "time":"13:51"
+              },
+              {
+                "id":72,
+                "title":"9 Review (MVT)",
+                "time":"20:23"
+              },
+              {
+                "id":73,
+                "title":"10 Static",
+                "time":"08:52"
+              }
+            ]
            }
          ]
         },
