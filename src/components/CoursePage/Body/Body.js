@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { SimpleCourseContext } from "../../../pages/CoursePage";
 import CourseContent from "./CourseContent/CourseContent";
 import Description from "./Description";
+import Instructor from "./Instructor";
 import Requirements from "./Requirements";
 import TopCompanies from "./TopCompanies";
 import WhatYouLearn from "./WhatYouLearn";
 
 export default function Body() {
+  const course = useContext(SimpleCourseContext);
   return (
     <section className="body ms-5">
       <WhatYouLearn />
@@ -13,6 +16,12 @@ export default function Body() {
       <CourseContent />
       <Requirements />
       <Description />
+      <h4 className="mt-4 ms-4">
+        <strong>Instructor{course.instructors.length > 1 ? "s" : ""}</strong>
+      </h4>
+      {course.instructors.map((el, index) => {
+        return <Instructor instructor={el} />;
+      })}
     </section>
   );
 }

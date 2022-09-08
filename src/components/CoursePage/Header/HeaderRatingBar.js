@@ -6,7 +6,7 @@ export default function HeaderRatingBar() {
   const course = useContext(SimpleCourseContext);
 
   return (
-    <span className="ms-5 d-flex rating-bar" key={`rating-${course.id}`}>
+    <span className="ms-lg-5 d-flex rating-bar" key={`rating-${course.id}`}>
       <strong className="rate mx-1">{course.feedBack.rate}</strong>
       <span className="mx-1">
         <RatingBar rate={course.feedBack.rate} courseId={course.id} />

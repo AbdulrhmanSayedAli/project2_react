@@ -1,3 +1,21 @@
+.course-page .header > div.content {
+  width: 54%;
+}
+
+@media screen and (max-width: 990px) {
+  .course-page .header > div.content {
+    width: 80%;
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .course-page .header > div.content {
+    width: 98%;
+    margin: auto !important;
+  }
+}
+
 .course-page .header .path .item {
   color: rgb(223, 174, 243);
   font-size: 13px;
@@ -111,6 +129,17 @@
   position: fixed;
   z-index: 5;
   top: 0;
+}
+
+.course-page .app-bar .content {
+  width: 54%;
+}
+
+@media screen and (max-width: 990px) {
+  .course-page .app-bar .content {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .course-page .app-bar h1 {

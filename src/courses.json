@@ -452,15 +452,19 @@
         "whoFor":[
          "يمكن لأي شخص ان يدخل الدورة ويتعلم لغة بايثون"
         ],
-        "instructor":{
-         "authorID":11,
-         "name":"Hassan Fulaih",
-         "rating":4.6,
-         "reviews":16288,
-         "students":238910,
-         "courses":14,
-         "about":"I love writing code and I love teaching others\nI always loved coding, I love diving into complex problems and solving and I still think that it's really an amazing feeling to see an app or program you built from scratch\nYou might think that I studied programming and that I got a CS degree - but I didn't! I always liked coding and it was a great hobby but I actually went for 'Biomedical Engineering' when it was time to go to university.\nAnd I don't regret it! It was a fun time and I enjoyed all the things taught there. But soon after taking my first steps in typical Biomedical Engineering jobs, it was very clear to me that I had to go back to coding. And that's what I did.\nActually, I always worked as a freelancer on side jobs whilst I was at university. And I also started teaching others there. I like sharing my knowledge and I really believe that we all should do our best to allow everyone to learn new things and achieve his or her goals.\nNow, I've taught about 200,000 students worldwide.\nI published dozens of courses and I got all those tutorials you find on this page. I'm extremely happy to see that all this content is helping people learn the things they want :-)"
-        },
+        "instructors":[
+          {
+            "id":1,
+            "name":"Hassan Fulaih",
+            "workOrStudy":"Teacher",
+            "image":"https://img-b.udemycdn.com/user/200_H/50762294_6e61.jpg",
+            "rating":4.6,
+            "reviews":16288,
+            "students":238910,
+            "courses":14,
+            "about":"I love writing code and I love teaching others\nI always loved coding, I love diving into complex problems and solving and I still think that it's really an amazing feeling to see an app or program you built from scratch\n\n\nYou might think that I studied programming and that I got a CS degree - but I didn't! I always liked coding and it was a great hobby but I actually went for 'Biomedical Engineering' when it was time to go to university.\nAnd I don't regret it! It was a fun time and I enjoyed all the things taught there. But soon after taking my first steps in typical Biomedical Engineering jobs, it was very clear to me that I had to go back to coding. And that's what I did.\nActually, I always worked as a freelancer on side jobs whilst I was at university. And I also started teaching others there. I like sharing my knowledge and I really believe that we all should do our best to allow everyone to learn new things and achieve his or her goals.\nNow, I've taught about 200,000 students worldwide.\nI published dozens of courses and I got all those tutorials you find on this page. I'm extremely happy to see that all this content is helping people learn the things they want :-)"
+           }
+        ],
         "feedBack":{
          "rate":3.5,
          "ratersCount":441,

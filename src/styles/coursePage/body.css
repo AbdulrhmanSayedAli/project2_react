@@ -104,6 +104,10 @@
   font-size: 15px;
 }
 
+.course-page .description .text.masked {
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
 .course-page .description button {
   color: rgb(130, 40, 165);
   background-color: transparent;
@@ -116,4 +120,43 @@
 
 .course-page .description .who-for {
   border: none;
+}
+
+.course-page .instructor h5 {
+  color: rgb(115, 40, 165);
+  text-decoration: underline;
+}
+
+.course-page .instructor h5:hover {
+  color: rgb(130, 69, 170);
+  cursor: pointer;
+}
+
+.course-page .instructor p {
+  color: grey;
+}
+
+.course-page .instructor img {
+  width: 20%;
+  border-radius: 10000px;
+  border: 1px solid grey;
+  object-fit: cover;
+}
+
+.course-page .instructor img:hover {
+  cursor: pointer;
+}
+
+.course-page .instructor button {
+  color: rgb(130, 40, 165);
+  background-color: transparent;
+  border: none;
+}
+
+.course-page .instructor button:hover {
+  color: rgb(150, 43, 192);
+}
+
+.course-page .instructor .masked {
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
 }

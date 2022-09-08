@@ -7,8 +7,8 @@ export default function CoursePageAppBar() {
   const course = useContext(SimpleCourseContext);
   return (
     <div className="app-bar bg-dark">
-      <div className="p-2">
-        <h1 className="ms-5 my-2">
+      <div className="p-2 content ms-lg-5">
+        <h1 className=" my-2">
           <strong>{course.title}</strong>
         </h1>
         <HeaderRatingBar />
