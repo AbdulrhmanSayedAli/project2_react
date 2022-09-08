@@ -13,7 +13,7 @@ export default function Course(props) {
         <h4>
           <strong>{course.title}</strong>
         </h4>
-        <p>{course.instructor.name}</p>
+        <p>{course.instructors[0].name}</p>
         <p className="rate d-inline">{course.feedBack.rate}</p>
         <RatingBar rate={course.feedBack.rate} courseId={course.id}></RatingBar>
         <p className="raters d-inline">({course.feedBack.ratersCount})</p>

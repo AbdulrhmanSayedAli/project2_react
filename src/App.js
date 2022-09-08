@@ -12,6 +12,7 @@ import "./styles/coursePage/body.css";
 import Main from "./pages/Main";
 import NavBar from "./components/NavBar/NavBar";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import CoursePage from "./pages/CoursePage";
 import React, { createContext, useEffect, useState } from "react";
 
@@ -64,6 +65,7 @@ function App() {
           </Routes>
         </CoursesContext.Provider>
       </NavBarVisibilityContext.Provider>
+      {state.loaded ? <Footer /> : <span></span>}
     </div>
   );
 }
