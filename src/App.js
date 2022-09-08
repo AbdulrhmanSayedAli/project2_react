@@ -1,10 +1,10 @@
 import "./styles/mainPage/courses.css";
 import "./styles/loadingBar.css";
 import "./styles/ratingBar.css";
-import "./styles/mainPage/navigation_bar.css";
+import "./styles/navigation_bar.css";
 import "./styles/mainPage/header.css";
 import "./styles/mainPage/categories.css";
-import "./styles/mainPage/footer.css";
+import "./styles/footer.css";
 import "./styles/coursePage/header.css";
 import "./styles/coursePage/side.css";
 import "./styles/coursePage/body.css";
