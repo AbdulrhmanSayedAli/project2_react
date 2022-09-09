@@ -21,6 +21,11 @@ export default function CoursePageHeader() {
         <div className="content">
           <SideCourseCard />
           <PathToCourse />
+          <img
+            src={course.image}
+            className="d-block d-lg-none"
+            alt="course"
+          ></img>
           <h1 className="ms-lg-5 my-2">
             <strong>{course.title}</strong>
           </h1>
@@ -42,6 +47,13 @@ export default function CoursePageHeader() {
               <p className="d-inline mx-1">{course.language}.</p>
             </div>
           </div>
+        </div>
+
+        <div className="d-block d-lg-none">
+          <h2 className="ms-5 mt-5">
+            <strong>{course.newPrice}$</strong>
+          </h2>
+          <button className="add-to-cart">Add to cart</button>
         </div>
       </header>
       {NavVisibility.isVisible ? <HeaderTabs /> : <span></span>}

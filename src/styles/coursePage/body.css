@@ -60,7 +60,6 @@
   background-color: rgba(128, 128, 128, 0.158);
   border: 1px solid rgba(128, 128, 128, 0.233);
   color: black;
-  text-align: center;
 }
 
 .course-page .accordion .content {
@@ -160,4 +159,83 @@
 
 .course-page .instructor .masked {
   mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
+.course-page .reviews {
+  border: none;
+}
+
+.course-page .reviews h5,
+.course-page .reviews p {
+  color: rgb(231, 231, 67);
+  text-align: center;
+}
+
+.course-page .reviews h5 {
+  font-size: 35px;
+}
+
+.course-page .reviews .box {
+  color: grey;
+}
+
+.course-page .reviews div.blue {
+  color: blue;
+}
+
+.course-page .comment .image {
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 2000px;
+  font-size: 12px;
+  background-color: rgb(51, 49, 49);
+}
+
+.course-page .comment .date {
+  color: grey;
+  font-size: 13px;
+}
+
+.course-page .comment .details {
+  color: black;
+  text-align: start;
+}
+
+.course-page .comment .helpful {
+  color: grey;
+  text-align: start;
+  font-size: 12px;
+}
+
+.course-page .comment .divider {
+  height: 1px;
+  width: 85%;
+  background-color: rgba(128, 128, 128, 0.644);
+}
+
+.course-page .comment .button {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 2000px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.course-page .comment .button:hover {
+  background-color: black;
+  color: white;
+}
+
+.course-page .comment .button.chosen {
+  background-color: black;
+  color: white;
+}
+
+.course-page .comment .report {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
 }

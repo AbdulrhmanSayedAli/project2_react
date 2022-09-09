@@ -4,6 +4,7 @@ import CourseContent from "./CourseContent/CourseContent";
 import Description from "./Description";
 import Instructor from "./Instructor";
 import Requirements from "./Requirements";
+import Reviews from "./Reviews/Reviews";
 import TopCompanies from "./TopCompanies";
 import WhatYouLearn from "./WhatYouLearn";
 
@@ -22,6 +23,7 @@ export default function Body() {
       {course.instructors.map((el, index) => {
         return <Instructor instructor={el} />;
       })}
+      <Reviews />
     </section>
   );
 }

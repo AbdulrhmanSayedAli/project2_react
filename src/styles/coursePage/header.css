@@ -150,3 +150,24 @@
 .course-page .app-bar .header-tabs {
   box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.226);
 }
+
+.course-page .header img {
+  width: 98%;
+  margin: 4px;
+}
+
+.course-page .header .add-to-cart {
+  width: 90%;
+  margin: 5px 5%;
+  padding: 5px 14px;
+  font-size: 20px;
+  background-color: rgb(182, 71, 226);
+  color: white;
+  border: none;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.course-page .header .add-to-cart:hover {
+  background-color: rgb(202, 127, 231);
+}
