@@ -476,28 +476,21 @@
          "reveiews":[
            {
              "id":1,
-             "name":"Abdul",
+             "name":"Abdul Sayed",
              "rate":5,
              "dateFrom":"5 months ago",
              "details":"it is a good course but i think that it must have more examples"
            },
            {
-             "id":2,
-             "name":"Afnan",
-             "rate":4,
-             "dateFrom":"2 months ago",
-             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
-           },
-           {
              "id":3,
-             "name":"Sarah",
+             "name":"Sarah Hasan",
              "rate":4,
              "dateFrom":"1 month ago",
              "details":"Good explanation"
            },
            {
              "id":4,
-             "name":"Obada",
+             "name":"Obada Ahmad",
              "rate":1,
              "dateFrom":"3 weeks ago",
              "details":"Not so Good"

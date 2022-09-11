@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import RatingBar from "../../../RatingBar/RatingBar";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import ThumbDownOffAltIcon from "@mui/icons-material/ThumbDownOffAlt";
+import { getNameFirstLetters } from "../../../../Utils";
 
 export default function Comment(props) {
   const comment = props.comment;
@@ -10,7 +11,7 @@ export default function Comment(props) {
     <div className="comment mt-4">
       <div className="d-flex">
         <div className="image d-flex align-items-center justify-content-center">
-          <strong className="s">AS</strong>
+          <strong className="s">{getNameFirstLetters(comment.name)}</strong>
         </div>
         <div className="ms-4">
           <strong>{comment.name}</strong>

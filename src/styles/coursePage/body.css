@@ -239,3 +239,23 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+.course-page .comments .drop-down {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 0;
+}
+
+.course-page .search-rating input {
+  color: grey;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.938);
+  border-radius: 0;
+}
+
+.course-page .search-rating button {
+  background-color: rgba(0, 0, 0, 0.938);
+  color: white;
+}
