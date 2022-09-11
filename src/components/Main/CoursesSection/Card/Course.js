@@ -21,7 +21,7 @@ export default function Course(props) {
           <p>
             <strong>{course.newPrice}$</strong>
           </p>
-          <p>
+          <p className={course.newPrice === course.oldPrice ? "d-none" : ""}>
             <strong>{course.oldPrice}$</strong>
           </p>
         </span>

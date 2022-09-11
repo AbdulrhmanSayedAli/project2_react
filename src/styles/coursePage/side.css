@@ -77,6 +77,17 @@
 .side h3 {
   color: black;
   margin-left: 5%;
+  margin-right: 5%;
+}
+
+.side h3 + h3 {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.side h3.price {
+  color: red;
+  font-size: 15px;
 }
 
 .side button {

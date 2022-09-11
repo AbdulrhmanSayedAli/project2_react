@@ -8,9 +8,29 @@
         "image":"https://img-b.udemycdn.com/course/240x135/2426532_a277_7.jpg",
         "students":46177,
         "language":"Arabic",
+        "captions":"",
         "lastUpdate":"10/2021",
         "newPrice":84.99,
         "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[
+          {
+            "name":"nasdaq",
+            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"
+          },{
+            "name":"volkswagen",
+            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"
+          },{
+            "name":"netapp",
+            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"
+          },{
+            "name":"box",
+            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg"
+          },{
+            "name":"eventbrite",
+            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"
+          }
+        ],
         "pathToCourse":[
          "Development",
          "Programming Languages",
@@ -504,9 +524,12 @@
         "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
         "students":19560,
         "language":"English",
+        "captions":"English",
         "lastUpdate":"9/2015",
         "newPrice":16.99,
         "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
         "pathToCourse":[
          "Development",
          "Programming Languages",

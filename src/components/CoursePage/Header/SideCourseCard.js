@@ -8,6 +8,7 @@ import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { NavBarVisibilityContext } from "../../../App";
 import ArticleIcon from "@mui/icons-material/Article";
+import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
 
 const includesItem = (icon, text) => {
   return (
@@ -37,8 +38,25 @@ export default function SideCourseCard(props) {
       }
     >
       {navVisibility.isVisible ? <PreviewCourse /> : <span></span>}
-      <h3 className="mt-2">
-        <strong>{course.newPrice}$</strong>
+      <div className="d-flex align-items-center justify-content-between">
+        <h3 className="mt-2">
+          <strong>{course.newPrice}$</strong>
+        </h3>
+        <h3
+          className={`${
+            course.newPrice === course.oldPrice ? "d-none" : ""
+          } mt-2`}
+        >
+          <strong>{course.oldPrice}$</strong>
+        </h3>
+      </div>
+      <h3
+        className={`${
+          course.newPrice === course.oldPrice ? "d-none" : ""
+        } price`}
+      >
+        <AccessAlarmIcon></AccessAlarmIcon>
+        <strong>{course.timeForNewPrice} </strong>left in this price
       </h3>
       <button className="add-to-cart">Add to cart</button>
       <button className="buy-now">Buy now</button>
