@@ -12,18 +12,30 @@ export default function Body() {
   const course = useContext(SimpleCourseContext);
   return (
     <section className="body ms-5">
-      <WhatYouLearn />
-      <TopCompanies />
-      <CourseContent />
+      <div id="overview">
+        <WhatYouLearn />
+        <TopCompanies />
+      </div>
+
+      <div id="curriculum">
+        <CourseContent />
+      </div>
+
       <Requirements />
       <Description />
-      <h4 className="mt-4 ms-4">
-        <strong>Instructor{course.instructors.length > 1 ? "s" : ""}</strong>
-      </h4>
-      {course.instructors.map((el, index) => {
-        return <Instructor instructor={el} />;
-      })}
-      <Reviews />
+
+      <div id="instructor">
+        <h4 className="mt-4 ms-4">
+          <strong>Instructor{course.instructors.length > 1 ? "s" : ""}</strong>
+        </h4>
+        {course.instructors.map((el, index) => {
+          return <Instructor instructor={el} />;
+        })}
+      </div>
+
+      <div id="reviews">
+        <Reviews />
+      </div>
     </section>
   );
 }

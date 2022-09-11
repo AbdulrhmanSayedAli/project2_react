@@ -106,6 +106,7 @@
   align-items: center;
   justify-content: space-around;
   margin-left: 80px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 990px) {
@@ -115,15 +116,16 @@
   }
 }
 
-.header-tabs .tabs span {
+.header-tabs .tabs a {
   width: 100%;
   color: grey;
   padding: 10px 0px;
   margin: 0px 5px;
+  text-decoration: none;
   text-align: center;
 }
 
-.header-tabs .tabs span:hover {
+.header-tabs .tabs a:hover {
   border-bottom: 1px solid black;
   color: black;
   cursor: pointer;
