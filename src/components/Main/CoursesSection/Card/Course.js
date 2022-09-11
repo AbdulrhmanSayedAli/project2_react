@@ -5,7 +5,7 @@ import RatingBar from "../../../RatingBar/RatingBar";
 export default function Course(props) {
   const course = props.course;
   return (
-    <NavLink to={`/course/${course.id}`}>
+    <NavLink to={`/course/${props.chosenTab}/${course.id}`}>
       <div className="item">
         {/* <span class="tooltiptext">Tooltip text</span> */}
 

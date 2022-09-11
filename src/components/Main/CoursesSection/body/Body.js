@@ -9,11 +9,13 @@ export default function Body(props) {
   return (
     <div className="content" id="courses">
       <h3>
-        <strong>Expand your career opportunities with Python</strong>
+        <strong>
+          Expand your career opportunities with {coursesData.chosenTab}
+        </strong>
       </h3>
       <p>{props.description}</p>
       <button className="button">
-        <strong>Explore Python</strong>
+        <strong>Explore {coursesData.chosenTab}</strong>
       </button>
 
       {coursesData.loaded ? <CoursesCarousel /> : <LoadingBar />}

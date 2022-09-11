@@ -5,23 +5,22 @@ import { CoursesContext, NavBarVisibilityContext } from "../App";
 import LoadingBar from "../components/LoadingBar/LoadingBar";
 import Body from "../components/CoursePage/Body/Body";
 
-const getCourse = (id, data) => {
-  for (let i = 0; i < data.courses[data.chosenTab].length; i++)
-    if (data.courses[data.chosenTab][i].id.toString() === id.toString())
-      return data.courses[data.chosenTab][i];
+const getCourse = (id, tab, data) => {
+  for (let i = 0; i < data.courses[tab].length; i++)
+    if (data.courses[tab][i].id.toString() === id.toString())
+      return data.courses[tab][i];
 };
 
 const changeNavVisibilty = (NavVisibility, newVisibility) => {
   if (NavVisibility.isVisible.toString() !== newVisibility.toString()) {
     NavVisibility.setVisibility(newVisibility);
-    console.log("sw");
   }
 };
 
 export const SimpleCourseContext = createContext();
 
 export default function CoursePage() {
-  const { id } = useParams();
+  const { tab, id } = useParams();
   const data = useContext(CoursesContext);
   const [headerVisible, setHeaderVisible] = useState(true);
   const [footerVisible, setFooterVisible] = useState(false);
@@ -56,7 +55,7 @@ export default function CoursePage() {
   return (
     <section className="course-page">
       {data.loaded ? (
-        <SimpleCourseContext.Provider value={{ ...getCourse(id, data) }}>
+        <SimpleCourseContext.Provider value={{ ...getCourse(id, tab, data) }}>
           <CoursePageHeader />
           <Body />
         </SimpleCourseContext.Provider>

@@ -61,7 +61,11 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
-            <Route exact path="/course/:id" element={<CoursePage />}></Route>
+            <Route
+              exact
+              path="/course/:tab/:id"
+              element={<CoursePage />}
+            ></Route>
           </Routes>
         </CoursesContext.Provider>
       </NavBarVisibilityContext.Provider>

@@ -24,6 +24,7 @@ export default function CoursesCarousel() {
       courses.push(
         <div key={i}>
           <Course
+            chosenTab={coursesData.chosenTab}
             key={`${coursesData.chosenTab}-${data[i].id}`}
             course={data[i]}
             style={{ position: "relative" }}

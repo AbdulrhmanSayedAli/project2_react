@@ -699,10 +699,1096 @@
            }
          ]
         }
+       },{
+        "id": 2,
+        "title": "Learn Python: The Complete Python Programming Course",
+        "subTitle": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":19560,
+        "language":"English",
+        "captions":"English",
+        "lastUpdate":"9/2015",
+        "newPrice":16.99,
+        "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":3,
+          "hours":14,
+          "articles":1
+        },
+        "whatYouLearn":[
+         "Create their own Python Programs",
+         "Become an experienced Python Programmer",
+         "Parse the Web and Create their own Games"
+        ],
+        "courseContent":{
+         "lecturesCount":146,
+         "totalTime":"14h 42min",
+         "sections":[
+          {
+            "id":11,
+            "title":"Up and Running with Python",
+            "totalTime":"6min",
+            "lectures":[
+              {
+                "id":80,
+                "title":"Installing Python",
+                "time":"04:07"
+              },
+              {
+                "id":81,
+                "title":"Hello World",
+                "time":"01:37"
+              }   
+            ]
+          },
+          {
+            "id":12,
+            "title":"The basics (DataTypes)",
+            "totalTime":"53min",
+            "lectures":[
+              {
+                "id":83,
+                "title":"Variables",
+                "time":"03:01"
+              },
+              {
+                "id":84,
+                "title":"Multiple Assignment",
+                "time":"03:44"
+              },
+              {
+                "id":85,
+                "title":"Data Types and Ints",
+                "time":"03:57"
+              },
+              {
+                "id":86,
+                "title":"Strings",
+                "time":"07:26"
+              },
+              {
+                "id":87,
+                "title":"Placeholders",
+                "time":"03:49"
+              },
+              {
+                "id":88,
+                "title":"Lists/Arrays",
+                "time":"06:03"
+              },
+              {
+                "id":89,
+                "title":"List Functions",
+                "time":"07:18"
+              },
+              {
+                "id":90,
+                "title":"Dictionaries",
+                "time":"06:54"
+              },
+              {
+                "id":91,
+                "title":"Dictionary Functions",
+                "time":"05:33"
+              },
+              {
+                "id":92,
+                "title":"Tuples",
+                "time":"05:01"
+              } 
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+         "Internet Connection"
+        ],
+        "description":"<b>Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?</b><br/><br/>If you’re looking to learn Python for the very <b>first time</b> or need a <b>quick brush-up</b>, this is the course for you!<br/><br/>Python has rapidly become one of the <b>most popular programming languages</b> around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes <b>over $100,000</b> - this number is only going to grow in the coming years.<br/><br/>The best part? Python is one of the <b>easiest coding languages</b> to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an <b>absolute pro</b> at programming!<br/><br/>This course will cover <b>all the basics</b> and <b>several advanced concepts</b> of Python. We’ll go over:<br/><br/><ul><li>The fundamentals of Python programming</li><li>The fundamentals of Python programming</li><li>Writing and Reading to Files</li><li>Automation of Word and Excel Files</li><li>Web scraping with BeautifulSoup4</li><li>Browser automation with Selenium</li><li>Data Analysis and Visualization with MatPlotLib</li><li>Regex parsing and Task Management</li><li>GUI and Gaming with Tkinter</li><li>And much more!</li></ul><br/>If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for <b>almost 4 years</b>, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over <b>200,000+ students</b> from over <b>200 countries</b> jumpstart their programming journeys through my courses.<br/><br/>Here’s what some of my students have to say:<ul><li>I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!</li><br/><li>I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)</li><br/><li>Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.</li><br/></ul><br/><br/>So what are you waiting for? <b>Jumpstart your programming journey</b> and dive into the world of Python by <b>enrolling in this course today!</b>",
+        "whoFor":[
+         "Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
+        ],
+        "instructors":[
+          {
+            "id":2,
+            "name":"Avinash Jain",
+            "workOrStudy":"CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+            "image":"https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }, 
+           {
+            "id":3,
+            "name":"The Codex",
+            "workOrStudy":"Teaching Python through Projects",
+            "image":"https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to <b>build fun, practical projects</b>. Now, you can stand out from the crowd and <b>land your dream job.</b>\n\nJoin us on our platform today!"
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":43,
+         "4":37,
+         "3":16,
+         "2":3,
+         "1":2,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       },{
+        "id": 2,
+        "title": "Learn Python: The Complete Python Programming Course",
+        "subTitle": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":19560,
+        "language":"English",
+        "captions":"English",
+        "lastUpdate":"9/2015",
+        "newPrice":16.99,
+        "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":3,
+          "hours":14,
+          "articles":1
+        },
+        "whatYouLearn":[
+         "Create their own Python Programs",
+         "Become an experienced Python Programmer",
+         "Parse the Web and Create their own Games"
+        ],
+        "courseContent":{
+         "lecturesCount":146,
+         "totalTime":"14h 42min",
+         "sections":[
+          {
+            "id":11,
+            "title":"Up and Running with Python",
+            "totalTime":"6min",
+            "lectures":[
+              {
+                "id":80,
+                "title":"Installing Python",
+                "time":"04:07"
+              },
+              {
+                "id":81,
+                "title":"Hello World",
+                "time":"01:37"
+              }   
+            ]
+          },
+          {
+            "id":12,
+            "title":"The basics (DataTypes)",
+            "totalTime":"53min",
+            "lectures":[
+              {
+                "id":83,
+                "title":"Variables",
+                "time":"03:01"
+              },
+              {
+                "id":84,
+                "title":"Multiple Assignment",
+                "time":"03:44"
+              },
+              {
+                "id":85,
+                "title":"Data Types and Ints",
+                "time":"03:57"
+              },
+              {
+                "id":86,
+                "title":"Strings",
+                "time":"07:26"
+              },
+              {
+                "id":87,
+                "title":"Placeholders",
+                "time":"03:49"
+              },
+              {
+                "id":88,
+                "title":"Lists/Arrays",
+                "time":"06:03"
+              },
+              {
+                "id":89,
+                "title":"List Functions",
+                "time":"07:18"
+              },
+              {
+                "id":90,
+                "title":"Dictionaries",
+                "time":"06:54"
+              },
+              {
+                "id":91,
+                "title":"Dictionary Functions",
+                "time":"05:33"
+              },
+              {
+                "id":92,
+                "title":"Tuples",
+                "time":"05:01"
+              } 
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+         "Internet Connection"
+        ],
+        "description":"<b>Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?</b><br/><br/>If you’re looking to learn Python for the very <b>first time</b> or need a <b>quick brush-up</b>, this is the course for you!<br/><br/>Python has rapidly become one of the <b>most popular programming languages</b> around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes <b>over $100,000</b> - this number is only going to grow in the coming years.<br/><br/>The best part? Python is one of the <b>easiest coding languages</b> to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an <b>absolute pro</b> at programming!<br/><br/>This course will cover <b>all the basics</b> and <b>several advanced concepts</b> of Python. We’ll go over:<br/><br/><ul><li>The fundamentals of Python programming</li><li>The fundamentals of Python programming</li><li>Writing and Reading to Files</li><li>Automation of Word and Excel Files</li><li>Web scraping with BeautifulSoup4</li><li>Browser automation with Selenium</li><li>Data Analysis and Visualization with MatPlotLib</li><li>Regex parsing and Task Management</li><li>GUI and Gaming with Tkinter</li><li>And much more!</li></ul><br/>If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for <b>almost 4 years</b>, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over <b>200,000+ students</b> from over <b>200 countries</b> jumpstart their programming journeys through my courses.<br/><br/>Here’s what some of my students have to say:<ul><li>I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!</li><br/><li>I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)</li><br/><li>Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.</li><br/></ul><br/><br/>So what are you waiting for? <b>Jumpstart your programming journey</b> and dive into the world of Python by <b>enrolling in this course today!</b>",
+        "whoFor":[
+         "Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
+        ],
+        "instructors":[
+          {
+            "id":2,
+            "name":"Avinash Jain",
+            "workOrStudy":"CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+            "image":"https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }, 
+           {
+            "id":3,
+            "name":"The Codex",
+            "workOrStudy":"Teaching Python through Projects",
+            "image":"https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to <b>build fun, practical projects</b>. Now, you can stand out from the crowd and <b>land your dream job.</b>\n\nJoin us on our platform today!"
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":43,
+         "4":37,
+         "3":16,
+         "2":3,
+         "1":2,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       },{
+        "id": 2,
+        "title": "Learn Python: The Complete Python Programming Course",
+        "subTitle": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":19560,
+        "language":"English",
+        "captions":"English",
+        "lastUpdate":"9/2015",
+        "newPrice":16.99,
+        "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":3,
+          "hours":14,
+          "articles":1
+        },
+        "whatYouLearn":[
+         "Create their own Python Programs",
+         "Become an experienced Python Programmer",
+         "Parse the Web and Create their own Games"
+        ],
+        "courseContent":{
+         "lecturesCount":146,
+         "totalTime":"14h 42min",
+         "sections":[
+          {
+            "id":11,
+            "title":"Up and Running with Python",
+            "totalTime":"6min",
+            "lectures":[
+              {
+                "id":80,
+                "title":"Installing Python",
+                "time":"04:07"
+              },
+              {
+                "id":81,
+                "title":"Hello World",
+                "time":"01:37"
+              }   
+            ]
+          },
+          {
+            "id":12,
+            "title":"The basics (DataTypes)",
+            "totalTime":"53min",
+            "lectures":[
+              {
+                "id":83,
+                "title":"Variables",
+                "time":"03:01"
+              },
+              {
+                "id":84,
+                "title":"Multiple Assignment",
+                "time":"03:44"
+              },
+              {
+                "id":85,
+                "title":"Data Types and Ints",
+                "time":"03:57"
+              },
+              {
+                "id":86,
+                "title":"Strings",
+                "time":"07:26"
+              },
+              {
+                "id":87,
+                "title":"Placeholders",
+                "time":"03:49"
+              },
+              {
+                "id":88,
+                "title":"Lists/Arrays",
+                "time":"06:03"
+              },
+              {
+                "id":89,
+                "title":"List Functions",
+                "time":"07:18"
+              },
+              {
+                "id":90,
+                "title":"Dictionaries",
+                "time":"06:54"
+              },
+              {
+                "id":91,
+                "title":"Dictionary Functions",
+                "time":"05:33"
+              },
+              {
+                "id":92,
+                "title":"Tuples",
+                "time":"05:01"
+              } 
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+         "Internet Connection"
+        ],
+        "description":"<b>Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?</b><br/><br/>If you’re looking to learn Python for the very <b>first time</b> or need a <b>quick brush-up</b>, this is the course for you!<br/><br/>Python has rapidly become one of the <b>most popular programming languages</b> around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes <b>over $100,000</b> - this number is only going to grow in the coming years.<br/><br/>The best part? Python is one of the <b>easiest coding languages</b> to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an <b>absolute pro</b> at programming!<br/><br/>This course will cover <b>all the basics</b> and <b>several advanced concepts</b> of Python. We’ll go over:<br/><br/><ul><li>The fundamentals of Python programming</li><li>The fundamentals of Python programming</li><li>Writing and Reading to Files</li><li>Automation of Word and Excel Files</li><li>Web scraping with BeautifulSoup4</li><li>Browser automation with Selenium</li><li>Data Analysis and Visualization with MatPlotLib</li><li>Regex parsing and Task Management</li><li>GUI and Gaming with Tkinter</li><li>And much more!</li></ul><br/>If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for <b>almost 4 years</b>, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over <b>200,000+ students</b> from over <b>200 countries</b> jumpstart their programming journeys through my courses.<br/><br/>Here’s what some of my students have to say:<ul><li>I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!</li><br/><li>I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)</li><br/><li>Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.</li><br/></ul><br/><br/>So what are you waiting for? <b>Jumpstart your programming journey</b> and dive into the world of Python by <b>enrolling in this course today!</b>",
+        "whoFor":[
+         "Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
+        ],
+        "instructors":[
+          {
+            "id":2,
+            "name":"Avinash Jain",
+            "workOrStudy":"CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+            "image":"https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }, 
+           {
+            "id":3,
+            "name":"The Codex",
+            "workOrStudy":"Teaching Python through Projects",
+            "image":"https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to <b>build fun, practical projects</b>. Now, you can stand out from the crowd and <b>land your dream job.</b>\n\nJoin us on our platform today!"
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":43,
+         "4":37,
+         "3":16,
+         "2":3,
+         "1":2,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       },{
+        "id": 2,
+        "title": "Learn Python: The Complete Python Programming Course",
+        "subTitle": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":19560,
+        "language":"English",
+        "captions":"English",
+        "lastUpdate":"9/2015",
+        "newPrice":16.99,
+        "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":3,
+          "hours":14,
+          "articles":1
+        },
+        "whatYouLearn":[
+         "Create their own Python Programs",
+         "Become an experienced Python Programmer",
+         "Parse the Web and Create their own Games"
+        ],
+        "courseContent":{
+         "lecturesCount":146,
+         "totalTime":"14h 42min",
+         "sections":[
+          {
+            "id":11,
+            "title":"Up and Running with Python",
+            "totalTime":"6min",
+            "lectures":[
+              {
+                "id":80,
+                "title":"Installing Python",
+                "time":"04:07"
+              },
+              {
+                "id":81,
+                "title":"Hello World",
+                "time":"01:37"
+              }   
+            ]
+          },
+          {
+            "id":12,
+            "title":"The basics (DataTypes)",
+            "totalTime":"53min",
+            "lectures":[
+              {
+                "id":83,
+                "title":"Variables",
+                "time":"03:01"
+              },
+              {
+                "id":84,
+                "title":"Multiple Assignment",
+                "time":"03:44"
+              },
+              {
+                "id":85,
+                "title":"Data Types and Ints",
+                "time":"03:57"
+              },
+              {
+                "id":86,
+                "title":"Strings",
+                "time":"07:26"
+              },
+              {
+                "id":87,
+                "title":"Placeholders",
+                "time":"03:49"
+              },
+              {
+                "id":88,
+                "title":"Lists/Arrays",
+                "time":"06:03"
+              },
+              {
+                "id":89,
+                "title":"List Functions",
+                "time":"07:18"
+              },
+              {
+                "id":90,
+                "title":"Dictionaries",
+                "time":"06:54"
+              },
+              {
+                "id":91,
+                "title":"Dictionary Functions",
+                "time":"05:33"
+              },
+              {
+                "id":92,
+                "title":"Tuples",
+                "time":"05:01"
+              } 
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+         "Internet Connection"
+        ],
+        "description":"<b>Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?</b><br/><br/>If you’re looking to learn Python for the very <b>first time</b> or need a <b>quick brush-up</b>, this is the course for you!<br/><br/>Python has rapidly become one of the <b>most popular programming languages</b> around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes <b>over $100,000</b> - this number is only going to grow in the coming years.<br/><br/>The best part? Python is one of the <b>easiest coding languages</b> to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an <b>absolute pro</b> at programming!<br/><br/>This course will cover <b>all the basics</b> and <b>several advanced concepts</b> of Python. We’ll go over:<br/><br/><ul><li>The fundamentals of Python programming</li><li>The fundamentals of Python programming</li><li>Writing and Reading to Files</li><li>Automation of Word and Excel Files</li><li>Web scraping with BeautifulSoup4</li><li>Browser automation with Selenium</li><li>Data Analysis and Visualization with MatPlotLib</li><li>Regex parsing and Task Management</li><li>GUI and Gaming with Tkinter</li><li>And much more!</li></ul><br/>If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for <b>almost 4 years</b>, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over <b>200,000+ students</b> from over <b>200 countries</b> jumpstart their programming journeys through my courses.<br/><br/>Here’s what some of my students have to say:<ul><li>I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!</li><br/><li>I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)</li><br/><li>Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.</li><br/></ul><br/><br/>So what are you waiting for? <b>Jumpstart your programming journey</b> and dive into the world of Python by <b>enrolling in this course today!</b>",
+        "whoFor":[
+         "Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
+        ],
+        "instructors":[
+          {
+            "id":2,
+            "name":"Avinash Jain",
+            "workOrStudy":"CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+            "image":"https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }, 
+           {
+            "id":3,
+            "name":"The Codex",
+            "workOrStudy":"Teaching Python through Projects",
+            "image":"https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to <b>build fun, practical projects</b>. Now, you can stand out from the crowd and <b>land your dream job.</b>\n\nJoin us on our platform today!"
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":43,
+         "4":37,
+         "3":16,
+         "2":3,
+         "1":2,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       },{
+        "id": 2,
+        "title": "Learn Python: The Complete Python Programming Course",
+        "subTitle": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+        "image":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "students":19560,
+        "language":"English",
+        "captions":"English",
+        "lastUpdate":"9/2015",
+        "newPrice":16.99,
+        "oldPrice":84.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[],
+        "pathToCourse":[
+         "Development",
+         "Programming Languages",
+         "Python"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":3,
+          "hours":14,
+          "articles":1
+        },
+        "whatYouLearn":[
+         "Create their own Python Programs",
+         "Become an experienced Python Programmer",
+         "Parse the Web and Create their own Games"
+        ],
+        "courseContent":{
+         "lecturesCount":146,
+         "totalTime":"14h 42min",
+         "sections":[
+          {
+            "id":11,
+            "title":"Up and Running with Python",
+            "totalTime":"6min",
+            "lectures":[
+              {
+                "id":80,
+                "title":"Installing Python",
+                "time":"04:07"
+              },
+              {
+                "id":81,
+                "title":"Hello World",
+                "time":"01:37"
+              }   
+            ]
+          },
+          {
+            "id":12,
+            "title":"The basics (DataTypes)",
+            "totalTime":"53min",
+            "lectures":[
+              {
+                "id":83,
+                "title":"Variables",
+                "time":"03:01"
+              },
+              {
+                "id":84,
+                "title":"Multiple Assignment",
+                "time":"03:44"
+              },
+              {
+                "id":85,
+                "title":"Data Types and Ints",
+                "time":"03:57"
+              },
+              {
+                "id":86,
+                "title":"Strings",
+                "time":"07:26"
+              },
+              {
+                "id":87,
+                "title":"Placeholders",
+                "time":"03:49"
+              },
+              {
+                "id":88,
+                "title":"Lists/Arrays",
+                "time":"06:03"
+              },
+              {
+                "id":89,
+                "title":"List Functions",
+                "time":"07:18"
+              },
+              {
+                "id":90,
+                "title":"Dictionaries",
+                "time":"06:54"
+              },
+              {
+                "id":91,
+                "title":"Dictionary Functions",
+                "time":"05:33"
+              },
+              {
+                "id":92,
+                "title":"Tuples",
+                "time":"05:01"
+              } 
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+         "Internet Connection"
+        ],
+        "description":"<b>Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?</b><br/><br/>If you’re looking to learn Python for the very <b>first time</b> or need a <b>quick brush-up</b>, this is the course for you!<br/><br/>Python has rapidly become one of the <b>most popular programming languages</b> around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes <b>over $100,000</b> - this number is only going to grow in the coming years.<br/><br/>The best part? Python is one of the <b>easiest coding languages</b> to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an <b>absolute pro</b> at programming!<br/><br/>This course will cover <b>all the basics</b> and <b>several advanced concepts</b> of Python. We’ll go over:<br/><br/><ul><li>The fundamentals of Python programming</li><li>The fundamentals of Python programming</li><li>Writing and Reading to Files</li><li>Automation of Word and Excel Files</li><li>Web scraping with BeautifulSoup4</li><li>Browser automation with Selenium</li><li>Data Analysis and Visualization with MatPlotLib</li><li>Regex parsing and Task Management</li><li>GUI and Gaming with Tkinter</li><li>And much more!</li></ul><br/>If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for <b>almost 4 years</b>, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over <b>200,000+ students</b> from over <b>200 countries</b> jumpstart their programming journeys through my courses.<br/><br/>Here’s what some of my students have to say:<ul><li>I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!</li><br/><li>I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)</li><br/><li>Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.</li><br/></ul><br/><br/>So what are you waiting for? <b>Jumpstart your programming journey</b> and dive into the world of Python by <b>enrolling in this course today!</b>",
+        "whoFor":[
+         "Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
+        ],
+        "instructors":[
+          {
+            "id":2,
+            "name":"Avinash Jain",
+            "workOrStudy":"CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+            "image":"https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }, 
+           {
+            "id":3,
+            "name":"The Codex",
+            "workOrStudy":"Teaching Python through Projects",
+            "image":"https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+            "rating":4.4,
+            "reviews":73444,
+            "students":890343,
+            "courses":16,
+            "about":"You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to <b>build fun, practical projects</b>. Now, you can stand out from the crowd and <b>land your dream job.</b>\n\nJoin us on our platform today!"
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":43,
+         "4":37,
+         "3":16,
+         "2":3,
+         "1":2,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
        }
     ],
     "Excel":[
-     
+      {
+        "id": 3,
+        "title": "Ultimate Microsoft Excel 2019 (بالعربية Excel كورس)",
+        "subTitle": "أقوي شرح عربي لبرنامج ميكروسوفت إكسيل - يبدأ معك من الصفر وحتى الإحتراف",
+        "image":"https://img-b.udemycdn.com/course/240x135/2951296_e64b_7.jpg",
+        "students":24560,
+        "language":"Arabic",
+        "captions":"",
+        "lastUpdate":"9/2021",
+        "newPrice":59.99,
+        "oldPrice":59.99,
+        "timeForNewPrice":"1 day",
+        "companiesSupport":[
+          {
+            "name":"nasdaq",
+            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"
+          },{
+            "name":"volkswagen",
+            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"
+          },{
+            "name":"netapp",
+            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"
+          },{
+            "name":"box",
+            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg"
+          },{
+            "name":"eventbrite",
+            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"
+          }
+        ],
+        "pathToCourse":[
+         "Office Productivity",
+         "Microsoft",
+         "Excel"
+        ],
+        "courseIncludes":{
+          "lifetimeAccess":true,
+          "mobileAccess":true,
+          "certificate":true,
+          "downloadableResources":0,
+          "hours":1,
+          "articles":0
+        },
+        "whatYouLearn":[
+         "هتتعرف على برنامج الإكسيل من البداية",
+         "هتعرف إزاي تستخدم كل أداة في البرنامج",
+         "هتتعلم كل الدوال الاساسية للبرنامج",
+         "هتعرف كل الأدوات الموجودة في البرنامج بالتفصيل",
+         "هتتعلم إزاي تعمل أي عملية حسابية عن طريق الدوال المختلفة في البرنامج",
+         "هتتتعلم إزاي تبدأ ملف من الصفر للنهاية وكمان هتعرف إزاي تحفظه بأكتر من صيغة مختلفة وكمان إزاي ممكن تطبعه بأكتر من شكل"
+        ],
+        "courseContent":{
+         "lecturesCount":7,
+         "totalTime":"1h 8min",
+         "sections":[
+          {
+            "id":22,
+            "title":"Introduction and installation",
+            "totalTime":"14min",
+            "lectures":[
+              {
+                "id":100,
+                "title":"Setup Program",
+                "time":"06:30"
+              },
+              {
+                "id":101,
+                "title":"Introduction",
+                "time":"07:40"
+              }   
+            ]
+          },
+          {
+            "id":23,
+            "title":"Section 1",
+            "totalTime":"54min",
+            "lectures":[
+              {
+                "id":102,
+                "title":"Lecture 2",
+                "time":"07:16"
+              },
+              {
+                "id":103,
+                "title":"Lecture 3",
+                "time":"10:09"
+              },
+              {
+                "id":103,
+                "title":"Lecture 4",
+                "time":"13:45"
+              },
+              {
+                "id":103,
+                "title":"Lecture 5",
+                "time":"04:18"
+              },
+              {
+                "id":103,
+                "title":"Lecture 6",
+                "time":"18:43"
+              }
+            ]
+          }
+         ]
+        },
+        "requirements":[
+         "تثبيت برنامج الأوفيس على الجهاز ولا شئ غير ذلك عدا العزيمة والرغبة في الوصول لمستوى إحترافي في الإكسيل"
+        ],
+        "description":"الكورس ده اتشرح على برنامج الأوفيس 2019 لكي يكون مناسب للتطبيق العملي علي كل الأصدارات السابقة سواء 2010 أو 2013 او 2016<br/><br/>الكورس اتعمل عشان ياخدك من الصفر لحد ما تكون فاهم كل أداة في البرنامجد بتعمل ايه وبتستخدمها ازاي<br/><br/>حاولت في الكورس ده ان ميكونش فيه أي وقت ضايع علشان الفيديوهات متكوتش طويلة عليك وتزهق منها<br/><br/>شرحت كل أداة بالتطبيق العملي عليها علشان تكون عارف هتستخدمها ازاي مش مجرد كلام نظري وخلاص<br/><br/>في تسجيل الشرح حاولت قدر الإمكان ان الفيديو ميكونش فيه ولا ثانية واحدة وقت ضائع... ف كان أي جزء فيه شغل هياخد من وقتك وانت بتشوف الفيديو حذفته عشان يكون الشرح سلس معاك<br/><br/>معملتش أي أصوات أو موسيقى في الخلفية عشان تكون مركز في الشرح ومن غير ما يأثر بشكل سلبي عليك وانت بتذاكر محتوى الكورس<br/><br/>اتمنى تستفيد من الكورس ده وان شاء الله يكون الطريق الصحيح ليك في تعلم برنامج الإكسيل<br/><br/>",
+        "whoFor":[
+          "الجميع"
+        ],
+        "instructors":[
+          {
+            "id":5,
+            "name":"Mohammed Abdel-Aal",
+            "workOrStudy":"Certified Academic Instructor",
+            "image":"https://img-b.udemycdn.com/user/200_H/79027590_bfa3_2.jpg",
+            "rating":4.5,
+            "reviews":76444,
+            "students":810343,
+            "courses":8,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           },
+           {
+            "id":6,
+            "name":"Creative Youth Club",
+            "workOrStudy":"Think Of The Box",
+            "image":"https://img-b.udemycdn.com/user/200_H/81178686_5a6d.jpg",
+            "rating":4.5,
+            "reviews":76444,
+            "students":810343,
+            "courses":8,
+            "about":"Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help."
+           }
+        ],
+        "feedBack":{
+         "rate":3.5,
+         "5":33,
+         "4":37,
+         "3":26,
+         "2":3,
+         "1":3,
+         "ratersCount":441,
+         "reveiews":[
+           {
+             "id":1,
+             "name":"Abdul",
+             "rate":5,
+             "dateFrom":"5 months ago",
+             "details":"it is a good course but i think that it must have more examples"
+           },
+           {
+             "id":2,
+             "name":"Afnan",
+             "rate":4,
+             "dateFrom":"2 months ago",
+             "details":"الدورة ممتازة جداً للي ماعنده اي خلفية عن البرمجة وانصح فيها"
+           },
+           {
+             "id":3,
+             "name":"Sarah",
+             "rate":4,
+             "dateFrom":"1 month ago",
+             "details":"Good explanation"
+           },
+           {
+             "id":4,
+             "name":"Obada",
+             "rate":1,
+             "dateFrom":"3 weeks ago",
+             "details":"Not so Good"
+           }
+         ]
+        }
+       }
     ],
     "WebDevelopment":[
     
