@@ -9,7 +9,7 @@ export default function Categories() {
   }
 
   return (
-    <section className="categories">
+    <section className="categories mb-5">
       <h2 className="ms-5">Top categories</h2>
       <div className="container my-4">
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4">

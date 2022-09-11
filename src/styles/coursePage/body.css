@@ -259,3 +259,24 @@
   background-color: rgba(0, 0, 0, 0.938);
   color: white;
 }
+
+.companies-footer {
+  background-color: rgb(29, 29, 29);
+  padding: 20px 10px;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.685);
+}
+
+.companies-footer h6 {
+  color: white;
+  font-size: 19px;
+}
+
+.companies-footer h6 span {
+  color: rgb(139, 44, 163);
+}
+
+.companies-footer h6 span:hover {
+  cursor: pointer;
+  color: rgb(208, 107, 233);
+}

@@ -16,19 +16,24 @@
         "companiesSupport":[
           {
             "name":"nasdaq",
-            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg"
           },{
             "name":"volkswagen",
-            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg"
           },{
             "name":"netapp",
-            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/netapp-light.svg"
           },{
             "name":"box",
-            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/box-light.svg"
           },{
             "name":"eventbrite",
-            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg"
           }
         ],
         "pathToCourse":[
@@ -1627,19 +1632,24 @@
         "companiesSupport":[
           {
             "name":"nasdaq",
-            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg"
           },{
             "name":"volkswagen",
-            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg"
           },{
             "name":"netapp",
-            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/netapp-light.svg"
           },{
             "name":"box",
-            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/box-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/box-light.svg"
           },{
             "name":"eventbrite",
-            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"
+            "image":"https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg",
+            "lightImage":"https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg"
           }
         ],
         "pathToCourse":[

@@ -3,7 +3,7 @@ import Item from "./Item";
 
 export default function Footer() {
   return (
-    <footer className="mt-5">
+    <footer>
       <ul>
         <Item text="Udemy Business" />
         <Item text="Teach on Udemy" />
