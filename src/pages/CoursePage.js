@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CoursePageHeader from "../components/CoursePage/Header/CoursePageHeader";
 import { CoursesContext, NavBarVisibilityContext } from "../App";
@@ -12,9 +12,10 @@ const getCourse = (id, data) => {
 };
 
 const changeNavVisibilty = (NavVisibility, newVisibility) => {
-  if (NavVisibility.isVisible.toString() !== newVisibility.toString())
+  if (NavVisibility.isVisible.toString() !== newVisibility.toString()) {
     NavVisibility.setVisibility(newVisibility);
-  console.log("switched");
+    console.log("sw");
+  }
 };
 
 export const SimpleCourseContext = createContext();
@@ -22,17 +23,33 @@ export const SimpleCourseContext = createContext();
 export default function CoursePage() {
   const { id } = useParams();
   const data = useContext(CoursesContext);
+  const [headerVisible, setHeaderVisible] = useState(true);
+  const [footerVisible, setFooterVisible] = useState(false);
   const NavVisibility = useContext(NavBarVisibilityContext);
 
-  const observer = new IntersectionObserver((entries, observer) => {
+  if (!headerVisible && !footerVisible)
+    changeNavVisibilty(NavVisibility, false);
+  else changeNavVisibilty(NavVisibility, true);
+
+  const observerHeader = new IntersectionObserver((entries, observer) => {
     const entry = entries[0];
-    if (!entry.isIntersecting) {
-      changeNavVisibilty(NavVisibility, false);
-    } else changeNavVisibilty(NavVisibility, true);
+    if (entry.isIntersecting !== headerVisible) {
+      setHeaderVisible(entry.isIntersecting);
+    }
+  });
+
+  const observerFooter = new IntersectionObserver((entries, observer) => {
+    const entry = entries[0];
+    if (entry.isIntersecting !== footerVisible) {
+      setFooterVisible(entry.isIntersecting);
+    }
   });
 
   useEffect(() => {
-    if (data.loaded) observer.observe(document.querySelector(".header h1"));
+    if (data.loaded) {
+      observerHeader.observe(document.querySelector(".header h1"));
+      observerFooter.observe(document.querySelector("footer img"));
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
