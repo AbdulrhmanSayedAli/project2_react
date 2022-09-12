@@ -5,7 +5,7 @@ import CheckIcon from "@mui/icons-material/Check";
 const Item = (text) => {
   return (
     <div
-      className="what-you-learn-item "
+      className="what-you-learn-item"
       style={{
         display: "flex",
         alignItems: "center",

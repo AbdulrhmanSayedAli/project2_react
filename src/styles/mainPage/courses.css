@@ -138,3 +138,41 @@
     width: 100%;
   }
 }
+
+.popover {
+  background-color: white;
+  padding: 8px;
+}
+
+.popover h4 {
+  font-size: 16px;
+}
+
+.popover h6 {
+  font-size: 13px;
+  color: green;
+}
+
+.popover h5 {
+  font-size: 13px;
+  color: black;
+}
+
+.popover button {
+  padding: 10px 10px;
+  color: white;
+  border: none;
+  background-color: rgb(172, 54, 196);
+}
+
+.popover .favourite {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

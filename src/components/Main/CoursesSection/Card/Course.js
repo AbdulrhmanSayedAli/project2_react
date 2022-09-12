@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import RatingBar from "../../../RatingBar/RatingBar";
+import PopUp from "./PopUp";
 
 export default function Course(props) {
   const course = props.course;
+
+  const [anchorEl, setanchorEl] = useState(null);
+
+  const handlePopoverOpen = (event) => {
+    setanchorEl(event.currentTarget);
+  };
+
+  const handlePopoverClose = () => {
+    setanchorEl(null);
+  };
+
+  const hovered = Boolean(anchorEl);
+
   return (
     <NavLink to={`/course/${props.chosenTab}/${course.id}`}>
-      <div className="item">
+      <div
+        className="item"
+        aria-owns={hovered ? "mouse-over-popover" : undefined}
+        aria-haspopup="true"
+        onMouseEnter={handlePopoverOpen}
+        onMouseLeave={handlePopoverClose}
+      >
         {/* <span class="tooltiptext">Tooltip text</span> */}
 
         <img src={course.image} alt="course" />
@@ -26,6 +46,13 @@ export default function Course(props) {
           </p>
         </span>
       </div>
+
+      <PopUp
+        course={course}
+        anchorEl={anchorEl}
+        handlePopoverClose={handlePopoverClose}
+        handlePopoverOpen={handlePopoverOpen}
+      />
     </NavLink>
   );
 }

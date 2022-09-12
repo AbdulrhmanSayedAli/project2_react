@@ -55,7 +55,9 @@ export default function CoursePage() {
   return (
     <section className="course-page">
       {data.loaded ? (
-        <SimpleCourseContext.Provider value={{ ...getCourse(id, tab, data) }}>
+        <SimpleCourseContext.Provider
+          value={{ ...getCourse(id, tab.replaceAll(" ", ""), data) }}
+        >
           <CoursePageHeader />
           <Body />
         </SimpleCourseContext.Provider>
